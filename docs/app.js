@@ -311,7 +311,14 @@ function calculatePricePosition() {
 
   const precautionsList = document.getElementById('medicalCheckpoints');
   precautionsList.innerHTML = '';
-  const precs = t.medical_precautions || [];
+  const precs = [...(t.medical_precautions || [])];
+  
+  if (currentTreatmentKey.includes('1년무제한')) {
+    const estCount = currentTreatmentKey.includes('종아리') ? 8 : 9;
+    const perSessionPrice = Math.round(actualPrice / estCount);
+    precs.unshift(`[1년 무제한권 팩트체크] 모주기(4~6주) 및 예약 규정상 연간 최대 유효 횟수는 ${estCount}회 내외입니다. 현재 입력가 기준 1회당 실질 체감 단가는 약 ${perSessionPrice.toLocaleString()}원입니다.`);
+  }
+
   precs.slice(0, 3).forEach(item => {
     const li = document.createElement('li');
     li.textContent = item;
