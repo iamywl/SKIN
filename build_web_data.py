@@ -433,21 +433,74 @@ TREATMENT_META = {
         "name": "올누드 브라질리언 위생 제모 1회 (남/녀)",
         "unit": "1회",
         "technique": "DCD 특수 냉각",
-        "knowledge_key": "레이저_제모"
-    },
-    # 5. 색소 & 토닝 & 모공
-    "레이저_토닝": {
+    # 5. 색소 & 토닝 & 모공 (장비별 / 1회 단품 vs 10회 패키지 희석방지 독립 규격)
+    # 5-1. 일반 큐스위치 엔디야그 토닝
+    "토닝_큐스위치_1회": {
         "category": "레이저_색소",
-        "name": "피코/큐스위치 레이저 토닝 (1회 단품)",
-        "unit": "1회",
-        "technique": "피코초/나노초 레이저",
+        "name": "일반 큐스위치 레이저 토닝 (1회 단품)",
+        "unit": "1회 단품",
+        "technique": "1064nm 큐스위치 엔디야그 (VRM/헬리오스)",
         "knowledge_key": "레이저_토닝"
     },
+    "토닝_큐스위치_10회": {
+        "category": "레이저_색소",
+        "name": "일반 큐스위치 레이저 토닝 (10회 패키지)",
+        "unit": "10회 패키지",
+        "technique": "1064nm 큐스위치 10회 벌크 패키지",
+        "knowledge_key": "레이저_토닝"
+    },
+    # 5-2. 국산 듀얼 피코토닝 (피코플러스/피코하이)
+    "토닝_피코플러스_1회": {
+        "category": "레이저_색소",
+        "name": "피코 토닝 1회 단품 [피코플러스/피코하이]",
+        "unit": "1회 단품",
+        "technique": "피코초 450ps 듀얼 피코 레이저",
+        "knowledge_key": "레이저_토닝"
+    },
+    "토닝_피코플러스_10회": {
+        "category": "레이저_색소",
+        "name": "피코 토닝 10회 패키지 [피코플러스/피코하이]",
+        "unit": "10회 패키지",
+        "technique": "피코초 듀얼토닝 10회 정규 패키지",
+        "knowledge_key": "레이저_토닝"
+    },
+    # 5-3. 미국 사이노슈어 오리지널 피코슈어 (755nm 알렉스 끝판왕)
+    "토닝_피코슈어_1회": {
+        "category": "레이저_색소",
+        "name": "피코슈어 755nm 1회 단품 [사이노슈어 정품]",
+        "unit": "1회 단품",
+        "technique": "미국 사이노슈어 755nm 알렉산드라이트 오리지널",
+        "knowledge_key": "레이저_토닝"
+    },
+    "토닝_피코슈어_10회": {
+        "category": "레이저_색소",
+        "name": "피코슈어 755nm 10회 패키지 [사이노슈어 정품]",
+        "unit": "10회 패키지",
+        "technique": "피코슈어 755nm 10회 프리미엄 패키지",
+        "knowledge_key": "레이저_토닝"
+    },
+    # 5-4. 피코프락셀 & 복합 듀얼
     "피코프락셀": {
         "category": "레이저_색소",
-        "name": "피코프락셀 (모공/흉터 LIOB 1회)",
-        "unit": "1회",
+        "name": "피코프락셀 (모공/흉터 LIOB 1회 단품)",
+        "unit": "1회 단품",
         "technique": "MLA/DOE 렌즈",
+        "knowledge_key": "피코_프락셀"
+    },
+    "피코프락셀_3회": {
+        "category": "레이저_색소",
+        "name": "피코프락셀 (모공/흉터 LIOB 3회 패키지)",
+        "unit": "3회 패키지",
+        "technique": "MLA/DOE 렌즈 3회 코스",
+        "knowledge_key": "피코_프락셀"
+    },
+    "듀얼토닝_복합_10회": {
+        "category": "레이저_색소",
+        "name": "듀얼 피코토닝+제네시스 홍조 10회 복합패키지",
+        "unit": "10회 패키지",
+        "technique": "피코토닝 + 롱펄스 제네시스 듀얼 복합",
+        "knowledge_key": "레이저_토닝"
+    },
         "knowledge_key": "피코_프락셀"
     },
     # 6. 보톡스 & 쁘띠
@@ -635,17 +688,17 @@ for t_key, meta in TREATMENT_META.items():
         "side_effects": med_info.get("side_effects", [])
     }
 
-# 1. treatment_stats.json 저장
-json_path = "SKIN/web_app/treatment_stats.json"
-with open(json_path, "w", encoding="utf-8") as f:
-    json.dump(web_database, f, ensure_ascii=False, indent=2)
+# 1. treatment_stats.json 및 data.js 저장
+for target_dir in ["SKIN/web_app", "deploy_skin", "deploy_skin/docs"]:
+    os.makedirs(target_dir, exist_ok=True)
+    j_p = os.path.join(target_dir, "treatment_stats.json")
+    with open(j_p, "w", encoding="utf-8") as f:
+        json.dump(web_database, f, ensure_ascii=False, indent=2)
+    
+    js_p = os.path.join(target_dir, "data.js")
+    with open(js_p, "w", encoding="utf-8") as f:
+        f.write("window.DAEGU_SKIN_DATA = ")
+        json.dump(web_database, f, ensure_ascii=False)
+        f.write(";\n")
 
-# 2. data.js 저장
-js_path = "SKIN/web_app/data.js"
-with open(js_path, "w", encoding="utf-8") as f:
-    f.write("// 대구 피부미용 실거래 통계 데이터베이스 (자동생성 v2.0)\n")
-    f.write("window.DAEGU_SKIN_DATA = ")
-    json.dump(web_database, f, ensure_ascii=False)
-    f.write(";\n")
-
-print(f"완료: {json_path} 및 {js_path} 정상 생성 (총 {len(web_database['treatments'])}개 세부 시술 탑재)!")
+print(f"완료: 전체 디렉토리에 동기화 저장 완료 (총 {len(web_database['treatments'])}개 세부 시술 탑재)!")
