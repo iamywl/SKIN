@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>대구 메디프라이스 | 피부미용 비급여 실거래 통계 & 이상치 진단</title>
+  <title>따꼼 빠꼼 | 대구 피부미용 비급여 실거래 통계 & 이상치 진단</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -35,22 +35,25 @@
   <!-- ===================================================================== -->
   <!-- Header / Navigation Bar -->
   <!-- ===================================================================== -->
-  <header class="sticky top-0 z-50 bg-[var(--bg-card)]/90 backdrop-blur-md border-b border-[var(--border-color)]">
+  <header class="sticky top-0 z-50 bg-[var(--bg-card)] border-b border-[var(--border-color)]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
       
       <!-- Brand Logo & Title -->
       <div class="flex items-center gap-3">
-        <div class="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center shadow-sm">
-          <i data-lucide="cross" class="w-5 h-5"></i>
+        <div class="w-8 h-8 rounded bg-[var(--accent-primary)] text-white flex items-center justify-center font-bold text-sm">
+          따
         </div>
         <div>
           <div class="flex items-center gap-2">
-            <span class="text-base font-bold tracking-tight text-[var(--text-primary)]">대구 메디프라이스</span>
-            <span class="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-blue-50 text-blue-600 dark:bg-blue-900/30 dark:text-blue-400 border border-blue-200 dark:border-blue-800">
-              104개 표본 실거래 DB
+            <span class="text-base font-extrabold tracking-tight text-[var(--text-primary)]">따꼼 빠꼼</span>
+            <span class="text-[10px] font-semibold text-[var(--text-muted)] border border-[var(--border-color)] px-1.5 py-0.5 rounded">
+              피부는 따꼼! 시세는 빠꼼!
+            </span>
+            <span class="text-[10px] font-medium text-[var(--text-muted)]">
+              (104개 병원 표본 실거래 DB)
             </span>
           </div>
-          <p class="text-xs text-[var(--text-muted)] hidden sm:block">8개 구·군 피부미용 실결제액(VAT포함) 통계 위치 & 아웃라이어 진단</p>
+          <p class="text-xs text-[var(--text-muted)] hidden sm:block">대구 8개 구·군 비급여 피부과 실결제액(VAT포함) 통계 위치 & 바가지 팩트체크</p>
         </div>
       </div>
 
@@ -195,14 +198,14 @@
               </div>
             </div>
 
-            <!-- Continuous Percentile Bar Gauge -->
+            <!-- Continuous Percentile Bar Gauge (No Gradient, Solid 1px Flat) -->
             <div class="space-y-1.5">
-              <div class="h-3 w-full bg-[var(--bg-card-sub)] rounded-full overflow-hidden p-0.5 border border-[var(--border-color)] relative">
-                <div id="percentileBar" class="h-full rounded-full bg-gradient-to-r from-emerald-500 via-blue-500 to-rose-500 transition-all duration-300" style="width: 50%;"></div>
+              <div class="h-2.5 w-full bg-[var(--bg-card-sub)] rounded overflow-hidden p-0.5 border border-[var(--border-color)] relative">
+                <div id="percentileBar" class="h-full rounded bg-[var(--accent-primary)] transition-all duration-200" style="width: 50%;"></div>
                 <!-- Needle Indicator -->
-                <div id="percentileNeedle" class="absolute top-0 bottom-0 w-1.5 bg-[var(--text-primary)] rounded-full shadow-md transition-all duration-300 -ml-0.5" style="left: 50%;"></div>
+                <div id="percentileNeedle" class="absolute top-0 bottom-0 w-1 bg-[var(--text-primary)] transition-all duration-200 -ml-0.5" style="left: 50%;"></div>
               </div>
-              <div class="flex justify-between text-[11px] text-[var(--text-muted)] px-1 font-mono">
+              <div class="flex justify-between text-[11px] text-[var(--text-muted)] px-0.5 font-mono">
                 <span>0% (극최저가)</span>
                 <span>25% (Q1)</span>
                 <span class="text-[var(--text-primary)] font-semibold">50% (중앙값)</span>
@@ -556,16 +559,16 @@
   <!-- ===================================================================== -->
   <!-- Footer -->
   <!-- ===================================================================== -->
-  <footer class="mt-auto border-t border-[var(--border-color)] bg-[var(--bg-card)] py-6">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-[var(--text-muted)]">
+  <footer class="mt-auto border-t border-[var(--border-color)] bg-[var(--bg-card)] py-5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-[var(--text-muted)]">
       <div>
-        <p class="font-medium text-[var(--text-secondary)]">대구 메디프라이스 (Daegu MediPrice) 통계 시스템</p>
-        <p class="mt-0.5">건강보험심사평가원 KOSIS 모수 78개소 & 104개 병의원 표본 기반 정밀 통계 분석 플랫폼</p>
+        <p class="font-bold text-[var(--text-primary)]">따꼼 빠꼼 (DDAKKOM PPAKKOM) • 대구 피부미용 실거래가 팩트체크</p>
+        <p class="mt-0.5">건강보험심사평가원 KOSIS 모수 78개소 & 104개 병의원 표본 기반 비급여 가격 투명화 프로젝트</p>
       </div>
-      <div class="flex items-center gap-4">
-        <span>로컬 테스트 서버: <code class="font-mono text-blue-600">http://localhost:8080</code></span>
+      <div class="flex items-center gap-3 text-[11px]">
+        <span>GitHub: <a href="https://github.com/iamywl/SKIN" target="_blank" class="text-[var(--accent-primary)] hover:underline font-mono">iamywl/SKIN</a></span>
         <span>•</span>
-        <span>버전 2.0.0 (Production)</span>
+        <span>오픈소스 라이선스: MIT</span>
       </div>
     </div>
   </footer>
