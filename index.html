@@ -286,15 +286,26 @@
           <!-- District Bar Chart (4 Cols) -->
           <div class="lg:col-span-4 app-card-sub p-4 flex flex-col justify-between">
             <div>
-              <h4 class="text-xs font-bold text-[var(--text-primary)] mb-2 flex items-center gap-1.5">
-                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-blue-600"></i>
-                8개 행정구별 평균 시세 비교
-              </h4>
+              <div class="flex items-center justify-between mb-1.5">
+                <h4 class="text-xs font-bold text-[var(--text-primary)] flex items-center gap-1.5">
+                  <i data-lucide="map-pin" class="w-3.5 h-3.5 text-blue-600"></i>
+                  8개 행정구별 평균 시세 비교
+                </h4>
+              </div>
+              <!-- 명확한 색상 범례 (Legend) -->
+              <div class="flex items-center gap-2.5 text-[11px] mb-2 px-0.5">
+                <span class="inline-flex items-center gap-1 text-[var(--text-muted)]">
+                  <span class="w-2.5 h-2.5 rounded-full bg-blue-400"></span> 대구 각 구 평균
+                </span>
+                <span class="inline-flex items-center gap-1 text-rose-500 font-semibold">
+                  <span class="w-2.5 h-2.5 rounded-full bg-rose-500"></span> 내가 선택한 구: <span id="selectedDistrictLabel" class="underline underline-offset-2">대구전체</span>
+                </span>
+              </div>
               <div class="h-56 sm:h-64 w-full">
                 <canvas id="districtBarChart"></canvas>
               </div>
             </div>
-            <p class="text-[10px] text-[var(--text-muted)] text-center mt-2">* 부가가치세 10% 포함 최종 실결제액 평균</p>
+            <p class="text-[10px] text-[var(--text-muted)] text-center mt-2">* 부가가치세 10% 포함 최종 실결제액 평균 기준</p>
           </div>
         </div>
       </div>

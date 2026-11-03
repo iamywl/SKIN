@@ -481,6 +481,13 @@ function renderDistrictBarChart(treatment, selectedDistrict) {
   const colors = getThemeColors();
   const dStats = treatment.district_stats || {};
   const districts = ['수성구', '중구', '달서구', '북구', '동구', '달성군', '서구', '남구'];
+  const overallMean = treatment.price_inc_vat.mean || 0;
+
+  // 상단 범례 라벨 갱신
+  const labelEl = document.getElementById('selectedDistrictLabel');
+  if (labelEl) {
+    labelEl.textContent = selectedDistrict === '대구전체' ? '대구 전체 (전 구 균일)' : selectedDistrict;
+  }
 
   const labels = [];
   const dataValues = [];
@@ -491,14 +498,12 @@ function renderDistrictBarChart(treatment, selectedDistrict) {
     if (mean > 0) {
       labels.push(d);
       dataValues.push(mean);
-      if (d === selectedDistrict) {
-        barColors.push(colors.rose);
-      } else if (d === '수성구') {
-        barColors.push(colors.isDark ? '#a78bfa' : '#7c3aed');
-      } else if (d === '중구') {
-        barColors.push(colors.isDark ? '#60a5fa' : '#3b82f6');
+
+      // 색상 기준: 내가 선택한 구는 강조 레드, 나머지 일반 구는 균일한 신뢰의 블루
+      if (selectedDistrict !== '대구전체' && d === selectedDistrict) {
+        barColors.push(colors.rose); // 내가 선택한 권역 강조
       } else {
-        barColors.push(colors.isDark ? '#3b4863' : '#cbd5e1');
+        barColors.push(colors.isDark ? '#3b82f6' : '#2563eb'); // 일반 구 균일 블루
       }
     }
   });
@@ -525,7 +530,19 @@ function renderDistrictBarChart(treatment, selectedDistrict) {
         legend: { display: false },
         tooltip: {
           callbacks: {
-            label: (item) => `${item.raw.toLocaleString()}원`
+            title: (items) => {
+              const d = items[0].label;
+              return d === selectedDistrict ? `${d} [선택된 비교 구]` : `${d} 평균`;
+            },
+            label: (item) => {
+              const val = item.raw;
+              const diff = val - overallMean;
+              const diffStr = diff > 0 ? `+${diff.toLocaleString()}원` : `${diff.toLocaleString()}원`;
+              return [
+                `평균 실결제액: ${val.toLocaleString()}원`,
+                `대구 전체 평균 대비: ${diffStr}`
+              ];
+            }
           }
         }
       },
