@@ -1,0 +1,69 @@
+/* ==========================================================================
+   Price Service Design System (Financial Terminal-Grade)
+   Theme: Slate Monochrome + Strict Semantic Utility Tokens
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Slate Light Tokens */
+  --canvas-base: #ffffff;
+  --surface-muted: #f8fafc;        /* slate-50 */
+  --surface-accent: #f1f5f9;       /* slate-100 */
+  --border-subtle: #e2e8f0;        /* slate-200 */
+  --border-strong: #cbd5e1;        /* slate-300 */
+  --text-primary: #0f172a;         /* slate-900 */
+  --text-secondary: #334155;       /* slate-700 */
+  --text-muted: #64748b;           /* slate-500 */
+  
+  --chart-line: #0f172a;
+  --chart-grid: #f1f5f9;
+  --chart-ref: #cbd5e1;
+}
+
+html.dark {
+  /* Slate Dark Tokens */
+  --canvas-base: #020617;          /* slate-950 */
+  --surface-muted: #0f172a;        /* slate-900 */
+  --surface-accent: #1e293b;       /* slate-800 */
+  --border-subtle: #1e293b;        /* slate-800 */
+  --border-strong: #334155;        /* slate-700 */
+  --text-primary: #f8fafc;         /* slate-100 */
+  --text-secondary: #cbd5e1;       /* slate-300 */
+  --text-muted: #94a3b8;           /* slate-400 */
+
+  --chart-line: #f8fafc;
+  --chart-grid: #1e293b;
+  --chart-ref: #475569;
+}
+
+body {
+  font-family: 'Pretendard', -apple-system, system-ui, sans-serif;
+  background-color: var(--canvas-base);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-mono, .price-mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Tabular Numbers Enforcement */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Minimal Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--surface-muted);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: 2px;
+}

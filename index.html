@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>따꼼 빠꼼 | 대구 피부미용 비급여 실거래가 분석 터미널</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Pretendard', '-apple-system', 'system-ui', 'sans-serif'],
+            mono: ['JetBrains Mono', 'Geist Mono', 'monospace']
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-100 min-h-screen flex flex-col font-sans selection:bg-slate-900 selection:text-white dark:selection:bg-slate-100 dark:selection:text-slate-900">
+
+  <!-- ===================================================================== -->
+  <!-- Top Global Header (Financial Terminal-Grade) -->
+  <!-- ===================================================================== -->
+  <header class="sticky top-0 z-50 bg-white dark:bg-slate-950 border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 h-12 flex items-center justify-between gap-4">
+      
+      <!-- Brand & Status -->
+      <div class="flex items-center gap-3">
+        <span class="text-xs font-bold font-mono tracking-wider px-2 py-0.5 rounded-md bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900">
+          DDAKKOM
+        </span>
+        <div class="flex items-baseline gap-2">
+          <h1 class="text-sm font-bold tracking-tight text-slate-900 dark:text-slate-100">따꼼 빠꼼</h1>
+          <span class="text-xs text-slate-500 dark:text-slate-400 font-mono hidden sm:inline">
+            대구 피부미용 비급여 실거래 터미널 (104개 표본)
+          </span>
+        </div>
+      </div>
+
+      <!-- Navigation & Mode Controls -->
+      <div class="flex items-center gap-2">
+        <nav class="flex bg-slate-100 dark:bg-slate-900 p-0.5 rounded-md border border-slate-200 dark:border-slate-800 text-xs">
+          <button id="tabBtnCalc" onclick="switchTab('calc')" class="px-2.5 py-1 rounded font-medium bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100 shadow-none">
+            가격 진단
+          </button>
+          <button id="tabBtnOutliers" onclick="switchTab('outliers')" class="px-2.5 py-1 rounded font-medium text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100">
+            아웃라이어 & 병원
+          </button>
+          <button id="tabBtnSources" onclick="switchTab('sources')" class="px-2.5 py-1 rounded font-medium text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-100">
+            공공 출처
+          </button>
+        </nav>
+
+        <!-- Theme Toggle -->
+        <button id="themeToggleBtn" onclick="toggleTheme()" class="h-7 w-7 rounded-md border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-900" title="화이트/다크 테마 전환">
+          <i id="themeIconSun" data-lucide="sun" class="w-3.5 h-3.5 hidden"></i>
+          <i id="themeIconMoon" data-lucide="moon" class="w-3.5 h-3.5"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ===================================================================== -->
+  <!-- Official Legal Disclaimer Banner (의료법 & 정보통신망법 준수) -->
+  <!-- ===================================================================== -->
+  <div class="bg-slate-100 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 text-xs py-2 px-4">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-slate-500 dark:text-slate-400">
+      <div class="flex items-center gap-2">
+        <span class="font-bold text-slate-900 dark:text-slate-100 font-mono px-1.5 py-0.5 rounded bg-slate-200 dark:bg-slate-800">LEGAL COMPLIANCE</span>
+        <span>본 서비스는 의료법 제45조에 따라 공시된 비급여 고시가를 바탕으로 한 <strong>비영리 공익 학술 통계 플랫폼</strong>입니다.</span>
+      </div>
+      <div class="text-xs font-mono text-slate-400">
+        특정 병원 추천·유인·알선 배제 (의료법 제27조 준수) • 전 표본 비식별 익명화
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ===================================================================== -->
+  <!-- Main Workspace (8px Grid & High Density) -->
+  <!-- ===================================================================== -->
+  <main class="flex-1 max-w-7xl w-full mx-auto p-4 space-y-4">
+
+    <!-- =================================================================== -->
+    <!-- TAB 1: 가격 위치 진단 & 분포도 -->
+    <!-- =================================================================== -->
+    <div id="tabCalc" class="space-y-4">
+
+      <!-- Section: Input Form & Diagnostic Summary (Grid) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 items-start">
+        
+        <!-- Left: Input & Segmentation Controls (5 Cols) -->
+        <div class="lg:col-span-5 bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-4 space-y-3">
+          
+          <div class="border-b border-slate-200 dark:border-slate-800 pb-2">
+            <h2 class="text-xs font-semibold uppercase tracking-wide text-slate-900 dark:text-slate-100">
+              1. 시술 선택 및 견적 입력
+            </h2>
+          </div>
+
+          <!-- Category Filter Bar -->
+          <div>
+            <label class="block text-xs text-slate-500 dark:text-slate-400 mb-1.5">카테고리</label>
+            <div id="categoryChipsContainer" class="flex flex-wrap gap-1">
+              <!-- Rendered via JS -->
+            </div>
+          </div>
+
+          <!-- Detailed Treatment Select -->
+          <div>
+            <div class="flex justify-between items-center mb-1">
+              <label class="text-xs text-slate-500 dark:text-slate-400">세부 시술 규격</label>
+              <span id="sampleCountBadge" class="text-xs font-mono text-slate-400">표본 0곳</span>
+            </div>
+            <select id="treatmentSelect" onchange="onTreatmentSelectChange()" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-md px-2.5 py-1.5 text-xs text-slate-900 dark:text-slate-100 focus:outline-none focus:border-slate-500">
+              <!-- Populated via JS -->
+            </select>
+          </div>
+
+          <!-- Dilution Prevention & Equipment Notice -->
+          <div class="p-2 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md text-xs text-slate-500 leading-normal">
+            <span class="font-bold text-slate-700 dark:text-slate-300">💡 희석 방지(No Dilution) 원칙:</span>
+            다회/N샷 패키지(벌크 할인)를 N으로 단순 나눈 가격과 1회 단품 가격은 통계적으로 완전히 분리되어 있으며, 캔델라 젠틀맥스·사이노슈어 피코슈어 등 장비(기계)별로 독립 평가됩니다.
+          </div>
+
+          <!-- Price Input -->
+          <div>
+            <div class="flex justify-between items-center mb-1">
+              <label class="text-xs text-slate-500 dark:text-slate-400">제안받은 가격</label>
+              <span id="priceFormatted" class="text-xs font-mono font-bold tabular-nums text-slate-900 dark:text-slate-100">0원</span>
+            </div>
+            <div class="relative">
+              <input type="number" id="priceInput" value="750000" step="5000" min="0" oninput="calculatePricePosition()" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-md px-2.5 py-1.5 text-xs font-mono tabular-nums text-slate-900 dark:text-slate-100 focus:outline-none focus:border-slate-500 pr-8" placeholder="예: 750000">
+              <span class="absolute right-2.5 top-2 text-xs text-slate-400 font-mono">원</span>
+            </div>
+
+            <!-- Quick Adjust Buttons -->
+            <div class="grid grid-cols-4 gap-1 mt-1.5">
+              <button type="button" onclick="adjustPrice(10000)" class="py-1 text-xs font-mono rounded-md border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300">+1만</button>
+              <button type="button" onclick="adjustPrice(50000)" class="py-1 text-xs font-mono rounded-md border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300">+5만</button>
+              <button type="button" onclick="adjustPrice(100000)" class="py-1 text-xs font-mono rounded-md border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300">+10만</button>
+              <button type="button" onclick="adjustPrice(-50000)" class="py-1 text-xs font-mono rounded-md border border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900 hover:bg-slate-100 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300">-5만</button>
+            </div>
+          </div>
+
+          <!-- VAT Exclusion Switch -->
+          <div class="p-2.5 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md space-y-1">
+            <label class="flex items-center gap-2 cursor-pointer text-xs text-slate-700 dark:text-slate-300">
+              <input type="checkbox" id="vatExclusiveCheckbox" onchange="calculatePricePosition()" class="rounded border-slate-300 dark:border-slate-700 text-slate-900 focus:ring-0">
+              <span>병원 고시가에 <strong>'VAT 10% 별도'</strong> 안내를 받음</span>
+            </label>
+            <div id="vatComputedNotice" class="text-xs text-rose-700 dark:text-rose-400 pl-5 hidden font-mono tabular-nums">
+              실결제액: <span id="vatComputedAmount" class="font-bold">0원</span> (+10% 가산)
+            </div>
+          </div>
+
+          <!-- Comparison District -->
+          <div>
+            <label class="block text-xs text-slate-500 dark:text-slate-400 mb-1">비교 권역 (행정구)</label>
+            <select id="districtSelect" onchange="calculatePricePosition()" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-md px-2.5 py-1.5 text-xs text-slate-900 dark:text-slate-100 focus:outline-none focus:border-slate-500">
+              <option value="대구전체" selected>대구광역시 전체 (104개 병원 기준)</option>
+              <option value="수성구">수성구 (범어/만촌/시지)</option>
+              <option value="중구">중구 (동성로/반월당)</option>
+              <option value="달서구">달서구 (상인/월성/죽전)</option>
+              <option value="북구">북구 (칠곡3지구/침산)</option>
+              <option value="동구">동구 (동대구/율하)</option>
+              <option value="달성군">달성군 (다사/현풍)</option>
+              <option value="서구">서구 (평리/내당)</option>
+              <option value="남구">남구 (영대병원 배후)</option>
+            </select>
+          </div>
+
+        </div>
+
+        <!-- Right: Diagnostic Output (7 Cols) -->
+        <div class="lg:col-span-7 space-y-4">
+          
+          <!-- Primary Diagnosis Terminal Card -->
+          <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-4 space-y-3">
+            
+            <div class="flex items-start justify-between border-b border-slate-200 dark:border-slate-800 pb-2.5">
+              <div>
+                <span class="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">통계적 위치 진단</span>
+                <div class="flex items-center gap-2 mt-0.5">
+                  <h3 id="badgeText" class="text-base font-bold text-slate-900 dark:text-slate-100">대구 표준 적정 시세</h3>
+                  <span id="statusTag" class="inline-flex items-center text-xs font-mono font-medium px-1.5 py-0.5 rounded-md border border-slate-200 dark:border-slate-800 bg-slate-100 dark:bg-slate-800 text-slate-800 dark:text-slate-200 tabular-nums">
+                    적정 구간
+                  </span>
+                </div>
+              </div>
+              <div class="text-right">
+                <span class="text-xs text-slate-500 dark:text-slate-400">대구 백분위수</span>
+                <div class="text-xl font-bold font-mono tracking-tight tabular-nums text-slate-900 dark:text-slate-100 mt-0.5" id="percentileText">상위 50.0%</div>
+              </div>
+            </div>
+
+            <!-- Percentile Gauge Meter (Monochrome Slate Track) -->
+            <div class="space-y-1">
+              <div class="h-2 w-full bg-slate-100 dark:bg-slate-900 rounded-md overflow-hidden border border-slate-200 dark:border-slate-800 relative">
+                <div id="percentileBar" class="h-full bg-slate-900 dark:bg-slate-100 transition-all duration-150" style="width: 50%;"></div>
+                <div id="percentileNeedle" class="absolute top-0 bottom-0 w-1 bg-rose-600 dark:bg-rose-400 transition-all duration-150 -ml-0.5" style="left: 50%;"></div>
+              </div>
+              <div class="flex justify-between text-xs font-mono text-slate-400 tabular-nums px-0.5">
+                <span>0% (최저)</span>
+                <span>25% (Q1)</span>
+                <span class="font-bold text-slate-700 dark:text-slate-300">50% (중앙값)</span>
+                <span>75% (Q3)</span>
+                <span>100% (최고)</span>
+              </div>
+            </div>
+
+            <!-- Narrative Result Description -->
+            <div id="diagDescription" class="p-2.5 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md text-xs leading-5 text-slate-700 dark:text-slate-300">
+              <!-- Populated via JS -->
+            </div>
+
+            <!-- Key Metric 4-Box Grid (Financial Alignment) -->
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 text-left">
+              <div class="p-2.5 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md">
+                <span class="text-xs text-slate-500 dark:text-slate-400 block">내 실결제액</span>
+                <span id="metricMyPrice" class="text-sm font-bold font-mono tabular-nums text-slate-900 dark:text-slate-100">0원</span>
+              </div>
+              <div class="p-2.5 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md">
+                <span class="text-xs text-slate-500 dark:text-slate-400 block">대구 중앙값</span>
+                <span id="metricMedian" class="text-sm font-bold font-mono tabular-nums text-slate-900 dark:text-slate-100">0원</span>
+              </div>
+              <div class="p-2.5 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md">
+                <span class="text-xs text-slate-500 dark:text-slate-400 block">정상 시세 (IQR)</span>
+                <span id="metricIQR" class="text-xs font-bold font-mono tabular-nums text-slate-900 dark:text-slate-100">0~0원</span>
+              </div>
+              <div class="p-2.5 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md">
+                <span id="metricDiffLabel" class="text-xs text-slate-500 dark:text-slate-400 block">중앙값 대비</span>
+                <span id="metricDiff" class="text-sm font-bold font-mono tabular-nums text-slate-900 dark:text-slate-100">0원</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Medical Precautions Checklist -->
+          <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-3.5 space-y-1.5">
+            <h4 class="text-xs font-semibold uppercase tracking-wide text-slate-700 dark:text-slate-300">
+              의학 안전 수칙 및 정품 체크포인트
+            </h4>
+            <ul id="medicalCheckpoints" class="text-xs text-slate-600 dark:text-slate-400 space-y-1 pl-4 list-disc marker:text-slate-400">
+              <!-- Populated via JS -->
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Charts Section (Grid) -->
+      <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-4 space-y-3">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 border-b border-slate-200 dark:border-slate-800 pb-2">
+          <div>
+            <h3 class="text-xs font-semibold uppercase tracking-wide text-slate-900 dark:text-slate-100">
+              대구 실거래 가격 분포 (KDE) 및 8개 행정구 비교
+            </h3>
+            <p class="text-xs text-slate-500 dark:text-slate-400">
+              104개 병원 VAT포함 실결제액 정규분포 및 사분위수(IQR) 대비 위치 매핑
+            </p>
+          </div>
+          <div class="flex items-center gap-3 text-xs font-mono">
+            <span class="inline-flex items-center gap-1.5 text-slate-700 dark:text-slate-300">
+              <span class="w-2 h-2 rounded-sm bg-slate-300 dark:bg-slate-700"></span> 정상 시세(IQR)
+            </span>
+            <span class="inline-flex items-center gap-1.5 text-rose-600 dark:text-rose-400 font-semibold">
+              <span class="w-2 h-2 rounded-sm bg-rose-600 dark:bg-rose-400"></span> 내 견적 위치
+            </span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+          <!-- Density Curve (8 Cols) -->
+          <div class="lg:col-span-8 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md p-3">
+            <div class="h-56 sm:h-64 w-full">
+              <canvas id="densityChart"></canvas>
+            </div>
+          </div>
+
+          <!-- District Bar Chart (4 Cols) -->
+          <div class="lg:col-span-4 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md p-3 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-1.5">
+                <span class="text-xs font-semibold text-slate-700 dark:text-slate-300">8개 행정구별 평균</span>
+                <span class="text-xs font-mono text-slate-500" id="selectedDistrictLabel">대구전체</span>
+              </div>
+              <div class="h-48 sm:h-52 w-full">
+                <canvas id="districtBarChart"></canvas>
+              </div>
+            </div>
+            <p class="text-xs text-slate-400 font-mono text-center mt-1">* VAT 10% 포함 최종 실결제액 평균 기준</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- =================================================================== -->
+    <!-- TAB 2: 시술별 아웃라이어 & 병원 실거래 목록 -->
+    <!-- =================================================================== -->
+    <div id="tabOutliers" class="hidden space-y-4">
+      
+      <!-- Selector Header -->
+      <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-3.5 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3">
+        <div>
+          <h2 class="text-xs font-semibold uppercase tracking-wide text-slate-900 dark:text-slate-100">
+            시술별 이상치(Outlier) 및 실거래 병원 디렉토리
+          </h2>
+          <p class="text-xs text-slate-500 dark:text-slate-400">
+            통계적 하한선(Q1 - 1.5×IQR) 미만 및 상한선(Q3 + 1.5×IQR) 초과 표본 분포
+          </p>
+        </div>
+        <div class="w-full sm:w-72">
+          <select id="outlierTreatmentSelect" onchange="renderOutlierView()" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-md px-2.5 py-1.5 text-xs text-slate-900 dark:text-slate-100">
+            <!-- Populated via JS -->
+          </select>
+        </div>
+      </div>
+
+      <!-- Outliers Cards Row -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        
+        <!-- Lower Outlier Box -->
+        <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-3.5 space-y-2">
+          <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-1.5">
+            <span class="text-xs font-bold text-rose-700 dark:text-rose-400">통계적 하한선 미만 표본 (시술 조건 사전확인 권고)</span>
+            <span id="lowOutlierBound" class="text-xs font-mono tabular-nums text-slate-500">0원 미만</span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-normal">
+            Q1 - 1.5×IQR 미만 구간입니다. 1회 체험 이벤트 조건이거나 세부 부위 한정 가격일 수 있으므로 예약 전 세부 시술 조건(용량/샷수)을 사전 확인하시기를 권장합니다.
+          </p>
+          <div id="lowOutliersList" class="space-y-1.5 max-h-48 overflow-y-auto pr-1">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Upper Outlier Box -->
+        <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-3.5 space-y-2">
+          <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-1.5">
+            <span class="text-xs font-bold text-slate-900 dark:text-slate-100">통계적 상한선 초과 표본 (복합 패키지·특수옵션 구간)</span>
+            <span id="highOutlierBound" class="text-xs font-mono tabular-nums text-slate-500">0원 초과</span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-normal">
+            Q3 + 1.5×IQR 초과 구간입니다. 1:1 전담 케어 또는 복합 진정/레이저 패키지가 포함된 견적인지 확인하시기 바랍니다.
+          </p>
+          <div id="highOutliersList" class="space-y-1.5 max-h-48 overflow-y-auto pr-1">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Top 5 Lowest Price Table -->
+      <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-3.5 space-y-2">
+        <h3 class="text-xs font-semibold uppercase tracking-wide text-slate-900 dark:text-slate-100">
+          사분위수 정상 시세 표본 분포 (Q1 가성비 구간 표본)
+        </h3>
+        <div class="overflow-x-auto">
+          <table class="w-full text-xs text-left">
+            <thead class="h-9 px-3 text-xs font-medium uppercase text-slate-500 bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
+              <tr>
+                <th class="py-2 px-3 text-center">표본 ID</th>
+                <th class="py-2 px-3 text-left">병원명</th>
+                <th class="py-2 px-3 text-center">권역 / 주소</th>
+                <th class="py-2 px-3 text-center">종별</th>
+                <th class="py-2 px-3 text-left">시술 옵션</th>
+                <th class="py-2 px-3 text-right font-mono tabular-nums">병원 고시가</th>
+                <th class="py-2 px-3 text-right font-mono font-bold tabular-nums text-slate-900 dark:text-slate-100">실결제액(VAT포함)</th>
+                <th class="py-2 px-3 text-left">비고</th>
+              </tr>
+            </thead>
+            <tbody id="topCheapestTableBody" class="divide-y divide-slate-100 dark:divide-slate-800/60 text-slate-700 dark:text-slate-300">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Full Hospital Directory Table -->
+      <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-3.5 space-y-3">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
+          <div>
+            <h3 class="text-xs font-semibold uppercase tracking-wide text-slate-900 dark:text-slate-100">
+              대구 병원 실거래 디렉토리 (<span id="hospitalCountSpan" class="font-mono font-bold">0</span>개소)
+            </h3>
+          </div>
+
+          <!-- Controls -->
+          <div class="flex flex-wrap gap-1.5 w-full sm:w-auto">
+            <input type="text" id="hospitalSearchInput" oninput="filterHospitalTable()" placeholder="병원명/주소 검색..." class="bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-md px-2 py-1 text-xs text-slate-900 dark:text-slate-100 w-full sm:w-40 focus:outline-none">
+            <select id="tableDistrictFilter" onchange="filterHospitalTable()" class="bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-md px-2 py-1 text-xs text-slate-900 dark:text-slate-100">
+              <option value="all">전체 권역</option>
+              <option value="수성구">수성구</option>
+              <option value="중구">중구</option>
+              <option value="달서구">달서구</option>
+              <option value="북구">북구</option>
+              <option value="동구">동구</option>
+              <option value="달성군">달성군</option>
+              <option value="서구">서구</option>
+              <option value="남구">남구</option>
+            </select>
+            <select id="tableTypeFilter" onchange="filterHospitalTable()" class="bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 rounded-md px-2 py-1 text-xs text-slate-900 dark:text-slate-100">
+              <option value="all">전체 종별</option>
+              <option value="전문의의원">피부과 전문의</option>
+              <option value="네트워크의원">대형 네트워크</option>
+              <option value="한방미용의원">한방 미용</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Tag Filter Chips -->
+        <div class="flex flex-wrap items-center gap-1 pt-1 border-t border-slate-200 dark:border-slate-800 text-xs">
+          <span class="text-slate-400 mr-1">태그:</span>
+          <button onclick="toggleTagFilter('all')" class="chip-btn active" id="tagFilter_all">전체</button>
+          <button onclick="toggleTagFilter('피부과전문의')" class="chip-btn" id="tagFilter_피부과전문의">피부과전문의</button>
+          <button onclick="toggleTagFilter('대형네트워크')" class="chip-btn" id="tagFilter_대형네트워크">대형네트워크</button>
+          <button onclick="toggleTagFilter('젠틀맥스Pro+보유')" class="chip-btn" id="tagFilter_젠틀맥스Pro+보유">젠틀맥스Pro+</button>
+          <button onclick="toggleTagFilter('클라리티2보유')" class="chip-btn" id="tagFilter_클라리티2보유">클라리티2</button>
+          <button onclick="toggleTagFilter('울쎄라정품인증')" class="chip-btn" id="tagFilter_울쎄라정품인증">울쎄라정품</button>
+          <button onclick="toggleTagFilter('VAT포함정찰제')" class="chip-btn" id="tagFilter_VAT포함정찰제">VAT포함정찰제</button>
+        </div>
+
+        <!-- Table Container -->
+        <div class="overflow-x-auto max-h-[32rem] overflow-y-auto rounded-md border border-slate-200 dark:border-slate-800">
+          <table class="w-full text-xs text-left">
+            <thead class="h-9 px-3 text-xs font-medium uppercase text-slate-500 bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 sticky top-0 z-10">
+              <tr>
+                <th class="py-2 px-3 text-left">병원명 / 종별</th>
+                <th class="py-2 px-3 text-center">도로명 주소 & 역세권</th>
+                <th class="py-2 px-3 text-left">보유 장비 및 특성 태그</th>
+                <th class="py-2 px-3 text-left">시술 옵션</th>
+                <th class="py-2 px-3 text-right font-mono tabular-nums">병원 고시가</th>
+                <th class="py-2 px-3 text-right font-mono font-bold tabular-nums text-slate-900 dark:text-slate-100">실결제액(VAT포함)</th>
+                <th class="py-2 px-3 text-center">부가세</th>
+                <th class="py-2 px-3 text-center font-mono">비식별 상태</th>
+              </tr>
+            </thead>
+            <tbody id="allHospitalsTableBody" class="divide-y divide-slate-100 dark:divide-slate-800/60 text-slate-700 dark:text-slate-300">
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- =================================================================== -->
+    <!-- TAB 3: 공공 출처 및 근거 -->
+    <!-- =================================================================== -->
+    <div id="tabSources" class="hidden space-y-4">
+      <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-4 space-y-3">
+        <div>
+          <h2 class="text-xs font-semibold uppercase tracking-wide text-slate-900 dark:text-slate-100">
+            공공 출처 및 법적 통계 산출 근거 명세서
+          </h2>
+          <p class="text-xs text-slate-500 dark:text-slate-400">
+            본 시스템은 허위 전수조사 주장을 배제하고 공식 모수($N_0=78$)와 검증된 표본($n=104$)을 바탕으로 산출됩니다.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          
+          <div class="p-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md space-y-1">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold text-slate-900 dark:text-slate-100">HIRA 심평원 국가통계포털 KOSIS</span>
+              <a href="https://kosis.kr/statHtml/statHtml.do?orgId=354&tblId=DT_HIRA4G" target="_blank" class="text-xs text-slate-900 dark:text-slate-100 underline font-mono">DT_HIRA4G ↗</a>
+            </div>
+            <p class="text-xs text-slate-600 dark:text-slate-400 leading-normal">
+              대구 등록 피부과 의원 총 78개소(수성 29, 달서 16, 중구 10, 북구 8, 동구 5, 서구 4, 남구 3, 달성 3)와 100% 매칭 교차 검증.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md space-y-1">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold text-slate-900 dark:text-slate-100">대한피부과의사회 공식 포털</span>
+              <a href="https://www.akd.or.kr" target="_blank" class="text-xs text-slate-900 dark:text-slate-100 underline font-mono">akd.or.kr ↗</a>
+            </div>
+            <p class="text-xs text-slate-600 dark:text-slate-400 leading-normal">
+              보건복지부 인정 전문의 자격 취득 여부 및 의료기관 명칭 독점권(`OO피부과의원`) 확인을 통해 유령 병원 원천 배제.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md space-y-1">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold text-slate-900 dark:text-slate-100">부가가치세법 시행령 제35조 제1호</span>
+              <span class="text-xs text-slate-400 font-mono">국세법령</span>
+            </div>
+            <p class="text-xs text-slate-600 dark:text-slate-400 leading-normal">
+              미용 목적 피부 시술(주름, 모공, 레이저 제모 등)의 10% 과세 의무화에 따라 고시가와 실결제액 간 왜곡 교정.
+            </p>
+          </div>
+
+          <div class="p-3 bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-md space-y-1">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-bold text-slate-900 dark:text-slate-100">의료법 제45조 비급여 고시가</span>
+              <span class="text-xs text-slate-400 font-mono">104개 병원</span>
+            </div>
+            <p class="text-xs text-slate-600 dark:text-slate-400 leading-normal">
+              각 병원 웹사이트에 법적으로 고시된 비급여 진료비용 및 영수증 실결제 표본을 직접 수집/분석.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ===================================================================== -->
+  <!-- Footer (Terminal Footnote) -->
+  <!-- ===================================================================== -->
+  <footer class="mt-auto border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/60 py-3">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
+      <div class="flex items-center gap-2">
+        <span class="font-bold text-slate-900 dark:text-slate-100">따꼼 빠꼼 (DDAKKOM PPAKKOM)</span>
+        <span>•</span>
+        <span>심평원 모수 78개소 & 104개 표본 분석 터미널</span>
+      </div>
+      <div class="flex items-center gap-3 font-mono text-xs">
+        <span>GitHub: <a href="https://github.com/iamywl/SKIN" target="_blank" class="underline text-slate-900 dark:text-slate-100">iamywl/SKIN</a></span>
+        <span>•</span>
+        <span>MIT License</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
