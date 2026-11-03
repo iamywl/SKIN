@@ -259,10 +259,10 @@ function calculatePricePosition() {
   const diffStr = Math.abs(diffFromMedian).toLocaleString();
 
   if (actualPrice < lowFence) {
-    title = '하위 이상치 (미끼·저용량 주의)';
+    title = '통계적 하한선 미만 (시술조건 확인 권장)';
     statusTag.className = 'inline-flex items-center text-xs font-mono font-medium px-1.5 py-0.5 rounded-md border border-rose-200 bg-rose-50 text-rose-700 dark:border-rose-800 dark:bg-rose-950/40 dark:text-rose-400 tabular-nums';
-    statusTag.textContent = '하위 이상치';
-    descText = `통계적 하한선(${lowFence.toLocaleString()}원) 미만 구간입니다. 1회 체험 이벤트가이거나 약제 용량(cc) 희석 가능성이 있으므로 정품 인증서 수령 및 개봉 확인이 필수적입니다.`;
+    statusTag.textContent = '조건확인 권장';
+    descText = `통계적 하한선(${lowFence.toLocaleString()}원) 미만 구간입니다. 1회 첫방문 체험가이거나 세부 부위 한정 조건일 수 있으므로 예약 전 세부 시술 조건(용량/샷수)을 사전 확인하시기를 권장합니다.`;
   } else if (actualPrice < q1) {
     title = '실속 가성비 시세 (Q1 이하)';
     statusTag.className = 'inline-flex items-center text-xs font-mono font-medium px-1.5 py-0.5 rounded-md border border-emerald-200 bg-emerald-50 text-emerald-700 dark:border-emerald-800 dark:bg-emerald-950/40 dark:text-emerald-400 tabular-nums';
@@ -280,10 +280,10 @@ function calculatePricePosition() {
     statusTag.textContent = '프리미엄';
     descText = `수성구 전문의 1:1 진료 또는 복합 진정 케어가 포함된 상위 25% 구간입니다. 대구 중앙값 대비 ${diffStr}원 높습니다.`;
   } else {
-    title = '상위 이상치 (초고가 구간)';
+    title = '통계적 상한선 초과 (복합옵션 확인)';
     statusTag.className = 'inline-flex items-center text-xs font-mono font-medium px-1.5 py-0.5 rounded-md border border-rose-200 bg-rose-50 text-rose-700 dark:border-rose-800 dark:bg-rose-950/40 dark:text-rose-400 tabular-nums';
-    statusTag.textContent = '상위 이상치';
-    descText = `통계적 상한선(${highFence.toLocaleString()}원)을 초과한 초고가 구간입니다. 패키지나 특수 옵션 포함 여부를 확인하세요.`;
+    statusTag.textContent = '복합옵션 확인';
+    descText = `통계적 상한선(${highFence.toLocaleString()}원)을 초과한 상위 구간입니다. 1:1 맞춤 진료 또는 복합 패키지 포함 여부를 확인하시기 바랍니다.`;
   }
 
   badgeText.textContent = title;
@@ -566,7 +566,7 @@ function renderOutlierView() {
   const lowContainer = document.getElementById('lowOutliersList');
   lowContainer.innerHTML = '';
   if (t.low_outliers.length === 0) {
-    lowContainer.innerHTML = '<p class="text-xs text-slate-400 py-3 text-center font-mono">하위 이상치 병원 없음 (전원 정상 시세 유지)</p>';
+    lowContainer.innerHTML = '<p class="text-xs text-slate-400 py-3 text-center font-mono">통계적 하한선 미만 표본 없음 (모든 표본이 정상 시세 구간 유지)</p>';
   } else {
     t.low_outliers.forEach(h => {
       const card = document.createElement('div');
@@ -578,7 +578,7 @@ function renderOutlierView() {
         </div>
         <div class="text-right">
           <div class="font-bold font-mono tabular-nums text-rose-700 dark:text-rose-400">${h.price_inc_vat_str}</div>
-          <span class="text-xs font-mono text-rose-600 dark:text-rose-400">미끼의심</span>
+          <span class="text-xs font-mono text-slate-500">조건확인</span>
         </div>
       `;
       lowContainer.appendChild(card);
@@ -589,7 +589,7 @@ function renderOutlierView() {
   const highContainer = document.getElementById('highOutliersList');
   highContainer.innerHTML = '';
   if (t.high_outliers.length === 0) {
-    highContainer.innerHTML = '<p class="text-xs text-slate-400 py-3 text-center font-mono">상위 이상치 병원 없음</p>';
+    highContainer.innerHTML = '<p class="text-xs text-slate-400 py-3 text-center font-mono">통계적 상한선 초과 표본 없음</p>';
   } else {
     t.high_outliers.forEach(h => {
       const card = document.createElement('div');
@@ -615,7 +615,7 @@ function renderOutlierView() {
     const tr = document.createElement('tr');
     tr.className = 'h-11 px-3 border-b border-slate-100 dark:border-slate-800/60 hover:bg-slate-50/80 dark:hover:bg-slate-900/50 transition-colors';
     tr.innerHTML = `
-      <td class="py-2 px-3 font-mono font-bold tabular-nums text-slate-900 dark:text-slate-100 text-center">#${idx + 1}</td>
+      <td class="py-2 px-3 font-mono tabular-nums text-slate-500 text-center">표본 ${String.fromCharCode(65 + idx)}-${(idx + 1).toString().padStart(2, '0')}</td>
       <td class="py-2 px-3 text-left font-semibold text-slate-900 dark:text-slate-100">${h.hospital_name}</td>
       <td class="py-2 px-3 text-center text-xs text-slate-500 dark:text-slate-400">${h.district} • ${h.subway_station || '-'}</td>
       <td class="py-2 px-3 text-center text-xs">${h.clinic_type}</td>
@@ -707,7 +707,7 @@ function filterHospitalTable() {
           ${h.vat_policy || (h.vat_included ? 'VAT포함' : 'VAT별도')}
         </span>
       </td>
-      <td class="py-2 px-3 text-left font-mono text-slate-400">${h.tel || '-'}</td>
+      <td class="py-2 px-3 text-center font-mono text-slate-400 text-xs"><span class="px-1.5 py-0.5 rounded bg-slate-100 dark:bg-slate-800 text-slate-500">비식별 보호</span></td>
     `;
     tbody.appendChild(tr);
   });

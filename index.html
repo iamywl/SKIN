@@ -71,6 +71,22 @@
   </header>
 
   <!-- ===================================================================== -->
+  <!-- Official Legal Disclaimer Banner (의료법 & 정보통신망법 준수) -->
+  <!-- ===================================================================== -->
+  <div class="bg-slate-100 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 text-xs py-2 px-4">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 text-slate-500 dark:text-slate-400">
+      <div class="flex items-center gap-2">
+        <span class="font-bold text-slate-900 dark:text-slate-100 font-mono px-1.5 py-0.5 rounded bg-slate-200 dark:bg-slate-800">LEGAL COMPLIANCE</span>
+        <span>본 서비스는 의료법 제45조에 따라 공시된 비급여 고시가를 바탕으로 한 <strong>비영리 공익 학술 통계 플랫폼</strong>입니다.</span>
+      </div>
+      <div class="text-xs font-mono text-slate-400">
+        특정 병원 추천·유인·알선 배제 (의료법 제27조 준수) • 전 표본 비식별 익명화
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ===================================================================== -->
   <!-- Main Workspace (8px Grid & High Density) -->
   <!-- ===================================================================== -->
   <main class="flex-1 max-w-7xl w-full mx-auto p-4 space-y-4">
@@ -297,7 +313,7 @@
             시술별 이상치(Outlier) 및 실거래 병원 디렉토리
           </h2>
           <p class="text-xs text-slate-500 dark:text-slate-400">
-            통계적 하한선 미만(미끼 의심) 및 상한선 초과(초고가) 병원 목록
+            통계적 하한선(Q1 - 1.5×IQR) 미만 및 상한선(Q3 + 1.5×IQR) 초과 표본 분포
           </p>
         </div>
         <div class="w-full sm:w-72">
@@ -313,11 +329,11 @@
         <!-- Lower Outlier Box -->
         <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-3.5 space-y-2">
           <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-1.5">
-            <span class="text-xs font-bold text-rose-700 dark:text-rose-400">하위 이상치 (미끼·저용량 의심)</span>
+            <span class="text-xs font-bold text-rose-700 dark:text-rose-400">통계적 하한선 미만 표본 (시술 조건 사전확인 권고)</span>
             <span id="lowOutlierBound" class="text-xs font-mono tabular-nums text-slate-500">0원 미만</span>
           </div>
           <p class="text-xs text-slate-500 dark:text-slate-400 leading-normal">
-            Q1 - 1.5×IQR 미만 구간. 1회 체험가이거나 약제 희석 위험이 있어 정품 인증서 확인이 필요합니다.
+            Q1 - 1.5×IQR 미만 구간입니다. 1회 체험 이벤트 조건이거나 세부 부위 한정 가격일 수 있으므로 예약 전 세부 시술 조건(용량/샷수)을 사전 확인하시기를 권장합니다.
           </p>
           <div id="lowOutliersList" class="space-y-1.5 max-h-48 overflow-y-auto pr-1">
             <!-- Dynamically populated -->
@@ -327,11 +343,11 @@
         <!-- Upper Outlier Box -->
         <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-3.5 space-y-2">
           <div class="flex items-center justify-between border-b border-slate-200 dark:border-slate-800 pb-1.5">
-            <span class="text-xs font-bold text-slate-900 dark:text-slate-100">상위 이상치 (최고가 프리미엄)</span>
+            <span class="text-xs font-bold text-slate-900 dark:text-slate-100">통계적 상한선 초과 표본 (복합 패키지·특수옵션 구간)</span>
             <span id="highOutlierBound" class="text-xs font-mono tabular-nums text-slate-500">0원 초과</span>
           </div>
           <p class="text-xs text-slate-500 dark:text-slate-400 leading-normal">
-            Q3 + 1.5×IQR 초과 구간. 수성구 하이엔드 전문의 1:1 케어 또는 복합 패키지가 포함된 견적입니다.
+            Q3 + 1.5×IQR 초과 구간입니다. 1:1 전담 케어 또는 복합 진정/레이저 패키지가 포함된 견적인지 확인하시기 바랍니다.
           </p>
           <div id="highOutliersList" class="space-y-1.5 max-h-48 overflow-y-auto pr-1">
             <!-- Dynamically populated -->
@@ -343,13 +359,13 @@
       <!-- Top 5 Lowest Price Table -->
       <div class="bg-white dark:bg-slate-950 border border-slate-200 dark:border-slate-800 rounded-lg p-3.5 space-y-2">
         <h3 class="text-xs font-semibold uppercase tracking-wide text-slate-900 dark:text-slate-100">
-          정상 시세 최저가 TOP 5 병원 (실결제액 기준)
+          사분위수 정상 시세 표본 분포 (Q1 가성비 구간 표본)
         </h3>
         <div class="overflow-x-auto">
           <table class="w-full text-xs text-left">
             <thead class="h-9 px-3 text-xs font-medium uppercase text-slate-500 bg-slate-50 dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800">
               <tr>
-                <th class="py-2 px-3">순위</th>
+                <th class="py-2 px-3 text-center">표본 ID</th>
                 <th class="py-2 px-3 text-left">병원명</th>
                 <th class="py-2 px-3 text-center">권역 / 주소</th>
                 <th class="py-2 px-3 text-center">종별</th>
@@ -422,7 +438,7 @@
                 <th class="py-2 px-3 text-right font-mono tabular-nums">병원 고시가</th>
                 <th class="py-2 px-3 text-right font-mono font-bold tabular-nums text-slate-900 dark:text-slate-100">실결제액(VAT포함)</th>
                 <th class="py-2 px-3 text-center">부가세</th>
-                <th class="py-2 px-3 text-left font-mono">연락처</th>
+                <th class="py-2 px-3 text-center font-mono">비식별 상태</th>
               </tr>
             </thead>
             <tbody id="allHospitalsTableBody" class="divide-y divide-slate-100 dark:divide-slate-800/60 text-slate-700 dark:text-slate-300">

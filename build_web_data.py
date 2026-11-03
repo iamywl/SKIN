@@ -14,7 +14,11 @@ from hospital_price_data import HOSPITAL_PRICE_DATABASE
 from statistical_analyzer import SkinStatisticalAnalyzer
 from medical_knowledge import TREATMENT_KNOWLEDGE
 
-analyzer = SkinStatisticalAnalyzer(HOSPITAL_PRICE_DATABASE)
+from legal_compliance_agent import MedicalLegalComplianceAgent
+legal_agent = MedicalLegalComplianceAgent()
+# 의료법 제27조 및 정보통신망법 제70조 준수를 위한 전 표본 비식별 익명화
+ANONYMIZED_DATABASE = legal_agent.anonymize_hospital_records(HOSPITAL_PRICE_DATABASE)
+analyzer = SkinStatisticalAnalyzer(ANONYMIZED_DATABASE)
 kosis = analyzer.compute_kosis_coverage()
 
 # 웹용 시술 메타데이터 (카테고리, 단위, 기술 스펙 등)
@@ -507,7 +511,7 @@ TREATMENT_META = {
 }
 
 web_database = {
-    "hospitals": HOSPITAL_PRICE_DATABASE,
+    "hospitals": ANONYMIZED_DATABASE,
     "kosis_coverage": kosis,
     "treatments": {},
     "categories": [

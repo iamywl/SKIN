@@ -4,10 +4,10 @@
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "뮤즈의원 대구점",
+      "hospital_name": "대구 중구 표본의원 #01 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 덕산동 (반월당역 12번 출구 교원구몬빌딩 5층)",
-      "road_address": "대구 중구 달구벌대로 2077 (교원구몬빌딩)",
+      "road_address": "대구 중구 (반월당역 12번 출구 도보 1분 인근)",
       "subway_station": "반월당역 12번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -18,7 +18,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-426-1945",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린/아다팔렌 처방전 (VAT 10% 별도)",
@@ -793,16 +792,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "뮤즈의원 대구점"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "예쁨주의쁨의원 대구동성로점 (리브의원)",
+      "hospital_name": "대구 중구 표본의원 #02 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 동성로 25 (영스퀘어 1·2·4층)",
-      "road_address": "대구 중구 동성로 25 (영스퀘어)",
+      "road_address": "대구 중구 (중앙로역 2번 출구 도보 2분 인근)",
       "subway_station": "중앙로역 2번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -813,7 +813,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-256-1175",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -1588,16 +1587,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "예쁨주의쁨의원 대구동성로점 (리브의원)"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "샤인빔의원 대구점",
+      "hospital_name": "대구 중구 표본의원 #03 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 중앙대로 (동성로 중앙로역 2번 출구 앞)",
-      "road_address": "대구 중구 동성로 25 (영스퀘어)",
+      "road_address": "대구 중구 (중앙로역 2번 출구 도보 2분 인근)",
       "subway_station": "중앙로역 2번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -1608,7 +1608,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-421-1175",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -2383,16 +2382,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "샤인빔의원 대구점"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "유앤아이의원 대구점",
+      "hospital_name": "대구 중구 표본의원 #04 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 달구벌대로 (반월당역 10번 출구 인근)",
-      "road_address": "대구 중구 달구벌대로 2077 (교원구몬빌딩)",
+      "road_address": "대구 중구 (반월당역 12번 출구 도보 1분 인근)",
       "subway_station": "반월당역 12번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -2403,7 +2403,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-254-1175",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -3178,16 +3177,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "유앤아이의원 대구점"
     },
     {
       "category": "프리미엄 미용의원",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "리쥬엘의원 동성로점",
+      "hospital_name": "대구 중구 표본의원 #05 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 동성로2가 (동성로 중심가 교동귀금속 인근)",
-      "road_address": "대구 중구 동성로 25 (영스퀘어)",
+      "road_address": "대구 중구 (중앙로역 2번 출구 도보 2분 인근)",
       "subway_station": "중앙로역 2번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -3198,7 +3198,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-427-0100",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -3973,16 +3972,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "리쥬엘의원 동성로점"
     },
     {
       "category": "리프팅·미용의원",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "닥터튠즈의원",
+      "hospital_name": "대구 중구 표본의원 #06 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 달구벌대로 (반월당역 덕산빌딩 7층)",
-      "road_address": "대구 중구 달구벌대로 2077 (교원구몬빌딩)",
+      "road_address": "대구 중구 (반월당역 12번 출구 도보 1분 인근)",
       "subway_station": "반월당역 12번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -3993,7 +3993,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-423-1175",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -4768,16 +4767,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "닥터튠즈의원"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "블루미의원",
+      "hospital_name": "대구 중구 표본의원 #07 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 국채보상로 (동성로 노보텔 맞은편)",
-      "road_address": "대구 중구 동성로 25 (영스퀘어)",
+      "road_address": "대구 중구 (중앙로역 2번 출구 도보 2분 인근)",
       "subway_station": "중앙로역 2번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -4788,7 +4788,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-257-2789",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 포함)",
@@ -5563,16 +5562,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "블루미의원"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "베러미의원",
+      "hospital_name": "대구 중구 표본의원 #08 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 동성로3길 (동성로 228기념공원 인근)",
-      "road_address": "대구 중구 동성로 25 (영스퀘어)",
+      "road_address": "대구 중구 (중앙로역 2번 출구 도보 2분 인근)",
       "subway_station": "중앙로역 2번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -5583,7 +5583,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-428-1175",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -6358,16 +6357,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "베러미의원"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "제이린의원 대구점",
+      "hospital_name": "대구 중구 표본의원 #09 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 중앙대로 (반월당역 삼성생명빌딩 인근)",
-      "road_address": "대구 중구 달구벌대로 2077 (교원구몬빌딩)",
+      "road_address": "대구 중구 (반월당역 12번 출구 도보 1분 인근)",
       "subway_station": "반월당역 12번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -6378,7 +6378,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-425-0100",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -7153,16 +7152,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "제이린의원 대구점"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "닥터디자이너의원 대구점",
+      "hospital_name": "대구 중구 표본의원 #10 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 동성로2가 (동성로 대구백화점 인근)",
-      "road_address": "대구 중구 동성로 25 (영스퀘어)",
+      "road_address": "대구 중구 (중앙로역 2번 출구 도보 2분 인근)",
       "subway_station": "중앙로역 2번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -7173,7 +7173,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-424-0010",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -7948,16 +7947,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "닥터디자이너의원 대구점"
     },
     {
       "category": "프리미엄 미용의원",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "블랑쥬의원 대구점",
+      "hospital_name": "대구 중구 표본의원 #11 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 달구벌대로 (반월당역 현대백화점 인근)",
-      "road_address": "대구 중구 달구벌대로 2077 (교원구몬빌딩)",
+      "road_address": "대구 중구 (반월당역 12번 출구 도보 1분 인근)",
       "subway_station": "반월당역 12번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -7968,7 +7968,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-255-0900",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -8743,16 +8742,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "블랑쥬의원 대구점"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "중구",
-      "hospital_name": "더차오름의원 대구본점",
+      "hospital_name": "대구 중구 표본의원 #12 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 중구 중앙대로 (동성로 중앙로역 3번 출구 인근)",
-      "road_address": "대구 중구 동성로 25 (영스퀘어)",
+      "road_address": "대구 중구 (중앙로역 2번 출구 도보 2분 인근)",
       "subway_station": "중앙로역 2번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -8763,7 +8763,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-427-0033",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -9538,16 +9537,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "더차오름의원 대구본점"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "중구",
-      "hospital_name": "올포스킨피부과의원 (대구본점)",
+      "hospital_name": "대구 중구 표본의원 #13 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 중구 동성로 12 (동성로 한일극장 맞은편 본점 빌딩)",
-      "road_address": "대구 중구 동성로 25 (영스퀘어)",
+      "road_address": "대구 중구 (중앙로역 2번 출구 도보 2분 인근)",
       "subway_station": "중앙로역 2번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -9558,7 +9558,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-425-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방 및 외용제 도포 지도 (VAT 10% 포함)",
@@ -10333,16 +10332,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "올포스킨피부과의원 (대구본점)"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "중구",
-      "hospital_name": "고운미피부과의원",
+      "hospital_name": "대구 중구 표본의원 #14 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 중구 달구벌대로 2100 (반월당 덕산타워 4층)",
-      "road_address": "대구 중구 달구벌대로 2077 (교원구몬빌딩)",
+      "road_address": "대구 중구 (반월당역 12번 출구 도보 1분 인근)",
       "subway_station": "반월당역 12번 출구 도보 1분",
       "tags": [
         "피부과전문의",
@@ -10353,7 +10353,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-253-0707",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 포함)",
@@ -11128,16 +11127,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "고운미피부과의원"
     },
     {
       "category": "한방 미용피부",
       "clinic_type": "한방미용의원",
       "district": "중구",
-      "hospital_name": "대구동성로 끗한의원",
+      "hospital_name": "대구 중구 표본의원 #15 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 중구 중앙대로 390 (동성로 중앙로역 2번 출구 앞 CGV 맞은편)",
-      "road_address": "대구 중구 동성로 25 (영스퀘어)",
+      "road_address": "대구 중구 (중앙로역 2번 출구 도보 2분 인근)",
       "subway_station": "중앙로역 2번 출구 도보 2분",
       "tags": [
         "한방피부미용",
@@ -11145,7 +11145,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-255-7588",
       "treatments": {
         "국소_레티노이드": {
           "note": "모공 처방전 / 한방 외용제 상담 (VAT 10% 별도)",
@@ -11650,16 +11649,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "대구동성로 끗한의원"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "동구",
-      "hospital_name": "차오름의원 대구동구점",
+      "hospital_name": "대구 동구 표본의원 #01 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 동구 동대구로 (동대구역 복합환승센터 맞은편)",
-      "road_address": "대구 동구 아양로 45",
+      "road_address": "대구 동구 (아양교역 1번 출구 도보 2분 인근)",
       "subway_station": "아양교역 1번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -11670,7 +11670,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-754-0033",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -12445,16 +12444,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "차오름의원 대구동구점"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "동구",
-      "hospital_name": "로제피부과의원 (동부점)",
+      "hospital_name": "대구 동구 표본의원 #02 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 동구 안심로 22길 (율하 롯데마트 인근)",
-      "road_address": "대구 동구 안심로 22길 40 (율하롯데캐슬 상가)",
+      "road_address": "대구 동구 (율하역 3번 출구 도보 3분 인근)",
       "subway_station": "율하역 3번 출구 도보 3분",
       "tags": [
         "피부과전문의",
@@ -12465,7 +12465,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-965-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 포함)",
@@ -13240,16 +13239,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "로제피부과의원 (동부점)"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "동구",
-      "hospital_name": "미소앤피부과의원 (율하점)",
+      "hospital_name": "대구 동구 표본의원 #03 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 동구 안심로 16길 (율하 롯데캐슬 상가 3층)",
-      "road_address": "대구 동구 안심로 22길 40 (율하롯데캐슬 상가)",
+      "road_address": "대구 동구 (율하역 3번 출구 도보 3분 인근)",
       "subway_station": "율하역 3번 출구 도보 3분",
       "tags": [
         "대형네트워크",
@@ -13260,7 +13260,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-964-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -14035,16 +14034,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "미소앤피부과의원 (율하점)"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "서구",
-      "hospital_name": "광장미의원",
+      "hospital_name": "대구 서구 표본의원 #01 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 서구 달구벌대로 (두류역 광장코아 3층)",
-      "road_address": "대구 서구 국채보상로 260",
+      "road_address": "대구 서구 (서구청 맞은편 인근)",
       "subway_station": "서구청 맞은편",
       "tags": [
         "대형네트워크",
@@ -14055,7 +14055,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-655-0810",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 발급 (VAT 10% 별도)",
@@ -14830,16 +14829,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "광장미의원"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "서구",
-      "hospital_name": "평리더맑은의원",
+      "hospital_name": "대구 서구 표본의원 #02 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 서구 국채보상로 (평리네거리 서구청 맞은편 2층)",
-      "road_address": "대구 서구 국채보상로 240 (평리뉴타운)",
+      "road_address": "대구 서구 (두류역 17번 출구 버스 5분 인근)",
       "subway_station": "두류역 17번 출구 버스 5분",
       "tags": [
         "대형네트워크",
@@ -14850,7 +14850,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-568-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -15625,16 +15624,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "평리더맑은의원"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "서구",
-      "hospital_name": "달성피부과의원",
+      "hospital_name": "대구 서구 표본의원 #03 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 서구 내당4동 468-13 (내당역 3번 출구 인근)",
-      "road_address": "대구 서구 달구벌대로 1790",
+      "road_address": "대구 서구 (내당역 3번 출구 도보 2분 인근)",
       "subway_station": "내당역 3번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -15645,7 +15645,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-566-4333",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 포함)",
@@ -16420,16 +16419,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "달성피부과의원"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "서구",
-      "hospital_name": "동산e피부과의원",
+      "hospital_name": "대구 서구 표본의원 #04 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 서구 국채보상로 258 (평리네거리 세영빌딩 3층)",
-      "road_address": "대구 서구 국채보상로 240 (평리뉴타운)",
+      "road_address": "대구 서구 (두류역 17번 출구 버스 5분 인근)",
       "subway_station": "두류역 17번 출구 버스 5분",
       "tags": [
         "피부과전문의",
@@ -16440,7 +16440,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-525-1771",
       "treatments": {
         "국소_레티노이드": {
           "note": "트레티노인 처방 (VAT 10% 포함)",
@@ -17215,16 +17214,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "동산e피부과의원"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "북구",
-      "hospital_name": "바론피부과의원 (칠곡점)",
+      "hospital_name": "대구 북구 표본의원 #01 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 북구 동암로 12길 (칠곡3지구 동천동 메가박스 인근)",
-      "road_address": "대구 북구 동천로 125 (칠곡3지구 메디컬센터)",
+      "road_address": "대구 북구 (팔거역 1번 출구 도보 3분 인근)",
       "subway_station": "팔거역 1번 출구 도보 3분",
       "tags": [
         "대형네트워크",
@@ -17235,7 +17235,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-324-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -18010,16 +18009,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "바론피부과의원 (칠곡점)"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "북구",
-      "hospital_name": "로즈의원 (침산점)",
+      "hospital_name": "대구 북구 표본의원 #02 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 북구 침산로 (침산네거리 명성푸르지오 상가 2층)",
-      "road_address": "대구 북구 침산로 153 (명성제니스 상가)",
+      "road_address": "대구 북구 (북구청역 1번 출구 도보 7분 인근)",
       "subway_station": "북구청역 1번 출구 도보 7분",
       "tags": [
         "대형네트워크",
@@ -18030,7 +18030,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-355-1175",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -18805,16 +18804,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "로즈의원 (침산점)"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "북구",
-      "hospital_name": "2080피부과의원",
+      "hospital_name": "대구 북구 표본의원 #03 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 북구 칠곡중앙대로 312 (태전동 태전삼거리 인근)",
-      "road_address": "대구 북구 동천로 125 (칠곡3지구 메디컬센터)",
+      "road_address": "대구 북구 (팔거역 1번 출구 도보 3분 인근)",
       "subway_station": "팔거역 1번 출구 도보 3분",
       "tags": [
         "피부과전문의",
@@ -18825,7 +18825,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-326-2080",
       "treatments": {
         "국소_레티노이드": {
           "note": "트레티노인 처방전 (VAT 10% 포함)",
@@ -19600,16 +19599,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "2080피부과의원"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "북구",
-      "hospital_name": "더퍼스트피부과의원",
+      "hospital_name": "대구 북구 표본의원 #04 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 북구 칠곡중앙대로 520 (칠곡 읍내동 동천역 인근)",
-      "road_address": "대구 북구 동천로 125 (칠곡3지구 메디컬센터)",
+      "road_address": "대구 북구 (팔거역 1번 출구 도보 3분 인근)",
       "subway_station": "팔거역 1번 출구 도보 3분",
       "tags": [
         "피부과전문의",
@@ -19620,7 +19620,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-324-7588",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 포함)",
@@ -20395,16 +20394,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "더퍼스트피부과의원"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "북구",
-      "hospital_name": "가톨릭피부과의원 (칠곡점)",
+      "hospital_name": "대구 북구 표본의원 #05 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 북구 팔거천동로 34길 (칠곡 가톨릭병원 인근 2층)",
-      "road_address": "대구 북구 동천로 125 (칠곡3지구 메디컬센터)",
+      "road_address": "대구 북구 (팔거역 1번 출구 도보 3분 인근)",
       "subway_station": "팔거역 1번 출구 도보 3분",
       "tags": [
         "피부과전문의",
@@ -20415,7 +20415,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-322-8275",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 포함)",
@@ -21190,16 +21189,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "가톨릭피부과의원 (칠곡점)"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "수성구",
-      "hospital_name": "애플피부과의원 (범어네거리)",
+      "hospital_name": "대구 수성구 표본의원 #01 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 수성구 달구벌대로 (범어네거리 그랜드호텔 맞은편 범어타워 5층)",
-      "road_address": "대구 수성구 달구벌대로 2435 (범어두산위브 제니스 상가)",
+      "road_address": "대구 수성구 (범어역 8번 출구 도보 1분 인근)",
       "subway_station": "범어역 8번 출구 도보 1분",
       "tags": [
         "피부과전문의",
@@ -21210,7 +21210,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-761-0010",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린/트레티노인 처방 및 가이드 (VAT 10% 포함)",
@@ -21985,16 +21984,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "애플피부과의원 (범어네거리)"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "수성구",
-      "hospital_name": "로제피부과의원 (범어본점)",
+      "hospital_name": "대구 수성구 표본의원 #02 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 수성구 달구벌대로 (범어역 6번 출구 범어클래시아 4층)",
-      "road_address": "대구 수성구 달구벌대로 2435 (범어두산위브 제니스 상가)",
+      "road_address": "대구 수성구 (범어역 8번 출구 도보 1분 인근)",
       "subway_station": "범어역 8번 출구 도보 1분",
       "tags": [
         "피부과전문의",
@@ -22005,7 +22005,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-753-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 포함)",
@@ -22780,16 +22779,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "로제피부과의원 (범어본점)"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "수성구",
-      "hospital_name": "오즈피부과의원",
+      "hospital_name": "대구 수성구 표본의원 #03 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 수성구 수성동1가 (대구은행역 인근)",
-      "road_address": "대구 수성구 들안로 300",
+      "road_address": "대구 수성구 (수성구청역 1번 출구 도보 3분 인근)",
       "subway_station": "수성구청역 1번 출구 도보 3분",
       "tags": [
         "피부과전문의",
@@ -22800,7 +22800,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-768-0055",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 (VAT 10% 포함)",
@@ -23575,16 +23574,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "오즈피부과의원"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "수성구",
-      "hospital_name": "아비쥬의원 대구수성점",
+      "hospital_name": "대구 수성구 표본의원 #04 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 수성구 동대구로 (범어네거리 두산위브더제니스 상가)",
-      "road_address": "대구 수성구 달구벌대로 2435 (범어두산위브 제니스 상가)",
+      "road_address": "대구 수성구 (범어역 8번 출구 도보 1분 인근)",
       "subway_station": "범어역 8번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -23595,7 +23595,6 @@
         "전용주차장",
         "야간진료"
       ],
-      "tel": "053-755-1175",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -24370,16 +24369,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "아비쥬의원 대구수성점"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "수성구",
-      "hospital_name": "포에버의원 대구범어점",
+      "hospital_name": "대구 수성구 표본의원 #05 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 수성구 달구벌대로 (범어역 1번 출구 앞)",
-      "road_address": "대구 수성구 달구벌대로 2435 (범어두산위브 제니스 상가)",
+      "road_address": "대구 수성구 (범어역 8번 출구 도보 1분 인근)",
       "subway_station": "범어역 8번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -24390,7 +24390,6 @@
         "전용주차장",
         "야간진료"
       ],
-      "tel": "053-742-1175",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 (VAT 10% 별도)",
@@ -25165,16 +25164,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "포에버의원 대구범어점"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "수성구",
-      "hospital_name": "누에보의원 대구수성점",
+      "hospital_name": "대구 수성구 표본의원 #06 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 수성구 달구벌대로 (범어역 구 샤인빔 수성점 자리)",
-      "road_address": "대구 수성구 달구벌대로 2435 (범어두산위브 제니스 상가)",
+      "road_address": "대구 수성구 (범어역 8번 출구 도보 1분 인근)",
       "subway_station": "범어역 8번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -25185,7 +25185,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-745-1175",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 (VAT 10% 별도)",
@@ -25960,16 +25959,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "누에보의원 대구수성점"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "수성구",
-      "hospital_name": "예쁨주의쁨의원 대구수성점",
+      "hospital_name": "대구 수성구 표본의원 #07 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 수성구 달구벌대로 (수성구청역 인근)",
-      "road_address": "대구 수성구 동대구로 311 (범어클리닉타워)",
+      "road_address": "대구 수성구 (범어역 4번 출구 도보 2분 인근)",
       "subway_station": "범어역 4번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -25980,7 +25980,6 @@
         "전용주차장",
         "야간진료"
       ],
-      "tel": "053-744-1175",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -26755,16 +26754,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "예쁨주의쁨의원 대구수성점"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "수성구",
-      "hospital_name": "뷰티엘의원",
+      "hospital_name": "대구 수성구 표본의원 #08 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 수성구 동대구로 (황금네거리 홈플러스 인근)",
-      "road_address": "대구 수성구 동대구로 111",
+      "road_address": "대구 수성구 (황금역 1번 출구 도보 3분 인근)",
       "subway_station": "황금역 1번 출구 도보 3분",
       "tags": [
         "대형네트워크",
@@ -26775,7 +26775,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-763-8275",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 (VAT 10% 별도)",
@@ -27550,16 +27549,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "뷰티엘의원"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "수성구",
-      "hospital_name": "만촌스타피부과의원",
+      "hospital_name": "대구 수성구 표본의원 #09 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 수성구 만촌동 (만촌역 이마트 만촌점 인근)",
-      "road_address": "대구 수성구 달구벌대로 2598",
+      "road_address": "대구 수성구 (만촌역 2번 출구 도보 2분 인근)",
       "subway_station": "만촌역 2번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -27570,7 +27570,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-751-2080",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 (VAT 10% 포함)",
@@ -28345,16 +28344,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "만촌스타피부과의원"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "수성구",
-      "hospital_name": "화이트의원 대구수성점",
+      "hospital_name": "대구 수성구 표본의원 #10 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 수성구 달구벌대로 (수성구청역 학원가 중심)",
-      "road_address": "대구 수성구 동대구로 311 (범어클리닉타워)",
+      "road_address": "대구 수성구 (범어역 4번 출구 도보 2분 인근)",
       "subway_station": "범어역 4번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -28365,7 +28365,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-752-0088",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -29140,16 +29139,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "화이트의원 대구수성점"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "달서구",
-      "hospital_name": "유앤아이의원 달서죽전점",
+      "hospital_name": "대구 달서구 표본의원 #01 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 달서구 와룡로 (죽전역 골든타워 4층)",
-      "road_address": "대구 달서구 달구벌대로 1530",
+      "road_address": "대구 달서구 (죽전역 1번 출구 도보 1분 인근)",
       "subway_station": "죽전역 1번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -29160,7 +29160,6 @@
         "전용주차장",
         "야간진료"
       ],
-      "tel": "053-524-1175",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 별도)",
@@ -29935,16 +29934,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "유앤아이의원 달서죽전점"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "달서구",
-      "hospital_name": "미소의원 월성점",
+      "hospital_name": "대구 달서구 표본의원 #02 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 달서구 조암로 (신월성 CGV 인근 스타벅스 건물 3층)",
-      "road_address": "대구 달서구 조암로 38 (월성CGV 타워)",
+      "road_address": "대구 달서구 (진천역 1번 출구 버스 5분 인근)",
       "subway_station": "진천역 1번 출구 버스 5분",
       "tags": [
         "대형네트워크",
@@ -29955,7 +29955,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-638-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 (VAT 10% 별도)",
@@ -30730,16 +30729,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "미소의원 월성점"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "달서구",
-      "hospital_name": "리더스피부과의원 대구점",
+      "hospital_name": "대구 달서구 표본의원 #03 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달서구 월배로 (상인역 4번 출구 앞)",
-      "road_address": "대구 달서구 월배로 210",
+      "road_address": "대구 달서구 (상인역 2번 출구 도보 2분 인근)",
       "subway_station": "상인역 2번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -30750,7 +30750,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-639-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 포함)",
@@ -31525,16 +31524,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "리더스피부과의원 대구점"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "달서구",
-      "hospital_name": "봄피부과의원 상인점",
+      "hospital_name": "대구 달서구 표본의원 #04 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달서구 상인동 (상인역 롯데백화점 상인점 맞은편)",
-      "road_address": "대구 달서구 월배로 210",
+      "road_address": "대구 달서구 (상인역 2번 출구 도보 2분 인근)",
       "subway_station": "상인역 2번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -31545,7 +31545,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-643-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 포함)",
@@ -32320,16 +32319,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "봄피부과의원 상인점"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "달서구",
-      "hospital_name": "닥터스피부과의원 달서점",
+      "hospital_name": "대구 달서구 표본의원 #05 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달서구 월배로 (진천역 1번 출구 인근)",
-      "road_address": "대구 달서구 달구벌대로 1500",
+      "road_address": "대구 달서구 (죽전역 2번 출구 도보 2분 인근)",
       "subway_station": "죽전역 2번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -32340,7 +32340,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-631-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 (VAT 10% 포함)",
@@ -33115,16 +33114,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "닥터스피부과의원 달서점"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "달서구",
-      "hospital_name": "세종피부과의원",
+      "hospital_name": "대구 달서구 표본의원 #06 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달서구 당산로 (감삼역 3번 출구 인근)",
-      "road_address": "대구 달서구 달구벌대로 1500",
+      "road_address": "대구 달서구 (죽전역 2번 출구 도보 2분 인근)",
       "subway_station": "죽전역 2번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -33135,7 +33135,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-562-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 (VAT 10% 포함)",
@@ -33910,16 +33909,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "세종피부과의원"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "달서구",
-      "hospital_name": "블루미의원 달서점",
+      "hospital_name": "대구 달서구 표본의원 #07 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 달서구 월배로 (상인역 센트럴타워 5층)",
-      "road_address": "대구 달서구 월배로 210",
+      "road_address": "대구 달서구 (상인역 2번 출구 도보 2분 인근)",
       "subway_station": "상인역 2번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -33930,7 +33930,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-633-2789",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 (VAT 10% 별도)",
@@ -34705,16 +34704,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "블루미의원 달서점"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "남구",
-      "hospital_name": "영대피부과의원",
+      "hospital_name": "대구 남구 표본의원 #01 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 남구 중앙대로 (영대병원역 3번 출구 인근)",
-      "road_address": "대구 남구 중앙대로 31",
+      "road_address": "대구 남구 (영대병원역 1번 출구 도보 2분 인근)",
       "subway_station": "영대병원역 1번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -34725,7 +34725,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-623-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 포함)",
@@ -35500,16 +35499,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "영대피부과의원"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "남구",
-      "hospital_name": "엠제이의원",
+      "hospital_name": "대구 남구 표본의원 #02 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 남구 봉덕로 (봉덕시장 봉덕네거리 인근)",
-      "road_address": "대구 남구 봉덕로 65",
+      "road_address": "대구 남구 (교대역 4번 출구 도보 8분 인근)",
       "subway_station": "교대역 4번 출구 도보 8분",
       "tags": [
         "대형네트워크",
@@ -35520,7 +35520,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-471-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 (VAT 10% 별도)",
@@ -36295,16 +36294,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "엠제이의원"
     },
     {
       "category": "피부과 전문의 의원",
       "clinic_type": "전문의의원",
       "district": "달성군",
-      "hospital_name": "다사맑은피부과의원",
+      "hospital_name": "대구 달성군 표본의원 #01 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달성군 다사읍 달구벌대로 (대실역 1번 출구 앞)",
-      "road_address": "대구 달성군 다사읍 달구벌대로 864",
+      "road_address": "대구 달성군 (대실역 2번 출구 도보 1분 인근)",
       "subway_station": "대실역 2번 출구 도보 1분",
       "tags": [
         "피부과전문의",
@@ -36315,7 +36315,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-587-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "디페린 처방전 (VAT 10% 포함)",
@@ -37090,16 +37089,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "다사맑은피부과의원"
     },
     {
       "category": "미용의원",
       "clinic_type": "네트워크의원",
       "district": "달성군",
-      "hospital_name": "테크노미소의원",
+      "hospital_name": "대구 달성군 표본의원 #02 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 달성군 유가읍 테크노상업로 (현풍 테크노폴리스 M스퀘어 3층)",
-      "road_address": "대구 달성군 현풍읍 테크노중앙대로 325",
+      "road_address": "대구 달성군 (대구경북과학기술원 인근 인근)",
       "subway_station": "대구경북과학기술원 인근",
       "tags": [
         "대형네트워크",
@@ -37110,7 +37110,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-617-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "처방전 (VAT 10% 별도)",
@@ -37885,16 +37884,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "테크노미소의원"
     },
     {
       "category": "한방 피부미용 네트워크",
       "clinic_type": "한방미용의원",
       "district": "중구",
-      "hospital_name": "로담한의원 대구점",
+      "hospital_name": "대구 중구 표본의원 #16 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 중구 달구벌대로 2095 (삼성생명빌딩 5층, 반월당역 14번 출구)",
-      "road_address": "대구 중구 달구벌대로 2077 (교원구몬빌딩)",
+      "road_address": "대구 중구 (반월당역 12번 출구 도보 1분 인근)",
       "subway_station": "반월당역 12번 출구 도보 1분",
       "tags": [
         "한방피부미용",
@@ -37902,7 +37902,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-255-0075",
       "treatments": {
         "국소_레티노이드": {
           "note": "비급여 한방 외용제 (VAT 10% 별도)",
@@ -38307,16 +38306,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "로담한의원 대구점"
     },
     {
       "category": "한방 피부미용 네트워크",
       "clinic_type": "한방미용의원",
       "district": "중구",
-      "hospital_name": "후한의원 대구점",
+      "hospital_name": "대구 중구 표본의원 #17 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 중구 중앙대로 390 (센트럴M빌딩 6층, 반월당역 21번 출구)",
-      "road_address": "대구 중구 달구벌대로 2077 (교원구몬빌딩)",
+      "road_address": "대구 중구 (반월당역 12번 출구 도보 1분 인근)",
       "subway_station": "반월당역 12번 출구 도보 1분",
       "tags": [
         "한방피부미용",
@@ -38324,7 +38324,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-424-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "한방 여드름 외용제 (VAT 10% 별도)",
@@ -38729,16 +38728,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "후한의원 대구점"
     },
     {
       "category": "한방 피부미용 네트워크",
       "clinic_type": "한방미용의원",
       "district": "중구",
-      "hospital_name": "하늘체한의원 대구점",
+      "hospital_name": "대구 중구 표본의원 #18 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 중구 동성로3길 56 (반월당역 인근)",
-      "road_address": "대구 중구 동성로 25 (영스퀘어)",
+      "road_address": "대구 중구 (중앙로역 2번 출구 도보 2분 인근)",
       "subway_station": "중앙로역 2번 출구 도보 2분",
       "tags": [
         "한방피부미용",
@@ -38746,7 +38746,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-426-7585",
       "treatments": {
         "국소_레티노이드": {
           "note": "한방 피지 연고 (VAT 10% 별도)",
@@ -39151,16 +39150,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "하늘체한의원 대구점"
     },
     {
       "category": "한방 피부미용 네트워크",
       "clinic_type": "한방미용의원",
       "district": "중구",
-      "hospital_name": "규림한의원 대구점",
+      "hospital_name": "대구 중구 표본의원 #19 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 중구 덕산동 127-1 (반월당역 13번 출구)",
-      "road_address": "대구 중구 달구벌대로 2077 (교원구몬빌딩)",
+      "road_address": "대구 중구 (반월당역 12번 출구 도보 1분 인근)",
       "subway_station": "반월당역 12번 출구 도보 1분",
       "tags": [
         "한방피부미용",
@@ -39168,7 +39168,6 @@
         "역세권도보",
         "야간진료"
       ],
-      "tel": "053-254-1075",
       "treatments": {
         "국소_레티노이드": {
           "note": "소염 한방 연고 (VAT 10% 별도)",
@@ -39573,16 +39572,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "규림한의원 대구점"
     },
     {
       "category": "한방 피부미용 네트워크",
       "clinic_type": "한방미용의원",
       "district": "달서구",
-      "hospital_name": "미올한의원 대구점",
+      "hospital_name": "대구 달서구 표본의원 #08 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 달서구 월배로 219 (상인역 4번 출구)",
-      "road_address": "대구 달서구 월배로 210",
+      "road_address": "대구 달서구 (상인역 2번 출구 도보 2분 인근)",
       "subway_station": "상인역 2번 출구 도보 2분",
       "tags": [
         "한방피부미용",
@@ -39590,7 +39590,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-644-1075",
       "treatments": {
         "국소_레티노이드": {
           "note": "원내 조제 외용제 (VAT 10% 별도)",
@@ -39995,16 +39994,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "미올한의원 대구점"
     },
     {
       "category": "한방 피부미용 네트워크",
       "clinic_type": "한방미용의원",
       "district": "수성구",
-      "hospital_name": "수성청아한의원 (버드나무제휴)",
+      "hospital_name": "대구 수성구 표본의원 #11 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 수성구 달구벌대로 2424 (범어동 범어역 인근)",
-      "road_address": "대구 수성구 달구벌대로 2435 (범어두산위브 제니스 상가)",
+      "road_address": "대구 수성구 (범어역 8번 출구 도보 1분 인근)",
       "subway_station": "범어역 8번 출구 도보 1분",
       "tags": [
         "한방피부미용",
@@ -40012,7 +40012,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-746-1075",
       "treatments": {
         "국소_레티노이드": {
           "note": "한방 외용제 (VAT 10% 별도)",
@@ -40417,16 +40416,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "수성청아한의원 (버드나무제휴)"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "수성구",
-      "hospital_name": "시지 로제피부과의원",
+      "hospital_name": "대구 수성구 표본의원 #12 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 수성구 달구벌대로 3200 (신매광장 스타벅스 건물 4층)",
-      "road_address": "대구 수성구 동대구로 311 (범어클리닉타워)",
+      "road_address": "대구 수성구 (범어역 4번 출구 도보 2분 인근)",
       "subway_station": "범어역 4번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -40437,7 +40437,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-792-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -41112,16 +41111,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "시지 로제피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "수성구",
-      "hospital_name": "시지 스타피부과의원",
+      "hospital_name": "대구 수성구 표본의원 #13 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 수성구 신매동 신매광장프라자 3층",
-      "road_address": "대구 수성구 동대구로 311 (범어클리닉타워)",
+      "road_address": "대구 수성구 (범어역 4번 출구 도보 2분 인근)",
       "subway_station": "범어역 4번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -41132,7 +41132,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-794-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -41807,16 +41806,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "시지 스타피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "수성구",
-      "hospital_name": "시지 고운피부과의원",
+      "hospital_name": "대구 수성구 표본의원 #14 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 수성구 달구벌대로 3188 (신매역 5번 출구)",
-      "road_address": "대구 수성구 동대구로 311 (범어클리닉타워)",
+      "road_address": "대구 수성구 (범어역 4번 출구 도보 2분 인근)",
       "subway_station": "범어역 4번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -41827,7 +41827,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-793-0075",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -42502,16 +42501,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "시지 고운피부과의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "수성구",
-      "hospital_name": "웰스킨의원 시지점",
+      "hospital_name": "대구 수성구 표본의원 #15 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 수성구 신매동 신매광장 메디컬빌딩 2층",
-      "road_address": "대구 수성구 동대구로 311 (범어클리닉타워)",
+      "road_address": "대구 수성구 (범어역 4번 출구 도보 2분 인근)",
       "subway_station": "범어역 4번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -42522,7 +42522,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-791-2354",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -43197,16 +43196,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "웰스킨의원 시지점"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "수성구",
-      "hospital_name": "만촌 연세피부과의원",
+      "hospital_name": "대구 수성구 표본의원 #16 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 수성구 만촌동 만촌네거리 메디컬타워 5층",
-      "road_address": "대구 수성구 달구벌대로 2598",
+      "road_address": "대구 수성구 (만촌역 2번 출구 도보 2분 인근)",
       "subway_station": "만촌역 2번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -43217,7 +43217,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-754-0082",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -43892,16 +43891,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "만촌 연세피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "수성구",
-      "hospital_name": "범물 스타피부과의원",
+      "hospital_name": "대구 수성구 표본의원 #17 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 수성구 지범로 190 (범물역 1번 출구)",
-      "road_address": "대구 수성구 동대구로 311 (범어클리닉타워)",
+      "road_address": "대구 수성구 (범어역 4번 출구 도보 2분 인근)",
       "subway_station": "범어역 4번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -43912,7 +43912,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-784-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -44587,16 +44586,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "범물 스타피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "수성구",
-      "hospital_name": "황금 로제피부과의원",
+      "hospital_name": "대구 수성구 표본의원 #18 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 수성구 청수로 120 (황금네거리 인근)",
-      "road_address": "대구 수성구 동대구로 111",
+      "road_address": "대구 수성구 (황금역 1번 출구 도보 3분 인근)",
       "subway_station": "황금역 1번 출구 도보 3분",
       "tags": [
         "피부과전문의",
@@ -44607,7 +44607,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-765-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -45282,16 +45281,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "황금 로제피부과의원"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "수성구",
-      "hospital_name": "닥터디자이너의원 수성점",
+      "hospital_name": "대구 수성구 표본의원 #19 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 수성구 달구벌대로 2435 (범어동 범어역 1번 출구)",
-      "road_address": "대구 수성구 달구벌대로 2435 (범어두산위브 제니스 상가)",
+      "road_address": "대구 수성구 (범어역 8번 출구 도보 1분 인근)",
       "subway_station": "범어역 8번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -45302,7 +45302,6 @@
         "전용주차장",
         "야간진료"
       ],
-      "tel": "053-741-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -45977,16 +45976,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "닥터디자이너의원 수성점"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "수성구",
-      "hospital_name": "더차오름의원 범어점",
+      "hospital_name": "대구 수성구 표본의원 #20 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 수성구 동대구로 312 (범어동 그랜드호텔 맞은편)",
-      "road_address": "대구 수성구 달구벌대로 2435 (범어두산위브 제니스 상가)",
+      "road_address": "대구 수성구 (범어역 8번 출구 도보 1분 인근)",
       "subway_station": "범어역 8번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -45997,7 +45997,6 @@
         "전용주차장",
         "야간진료"
       ],
-      "tel": "053-752-1234",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -46672,16 +46671,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "더차오름의원 범어점"
     },
     {
       "category": "한방 피부미용",
       "clinic_type": "한방미용의원",
       "district": "수성구",
-      "hospital_name": "시지 맑은한의원",
+      "hospital_name": "대구 수성구 표본의원 #21 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 수성구 달구벌대로 3192 (신매역 4번 출구)",
-      "road_address": "대구 수성구 동대구로 311 (범어클리닉타워)",
+      "road_address": "대구 수성구 (범어역 4번 출구 도보 2분 인근)",
       "subway_station": "범어역 4번 출구 도보 2분",
       "tags": [
         "한방피부미용",
@@ -46689,7 +46689,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-792-1075",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -47034,16 +47033,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "시지 맑은한의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "달서구",
-      "hospital_name": "월성 연세피부과의원",
+      "hospital_name": "대구 달서구 표본의원 #09 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달서구 조암로 38 (월성CGV 맞은편 월성스퀘어 4층)",
-      "road_address": "대구 달서구 조암로 38 (월성CGV 타워)",
+      "road_address": "대구 달서구 (진천역 1번 출구 버스 5분 인근)",
       "subway_station": "진천역 1번 출구 버스 5분",
       "tags": [
         "피부과전문의",
@@ -47054,7 +47054,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-638-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -47729,16 +47728,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "월성 연세피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "달서구",
-      "hospital_name": "월성 스타피부과의원",
+      "hospital_name": "대구 달서구 표본의원 #10 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달서구 조암남로 42 (월성동 파스쿠찌 3층)",
-      "road_address": "대구 달서구 조암로 38 (월성CGV 타워)",
+      "road_address": "대구 달서구 (진천역 1번 출구 버스 5분 인근)",
       "subway_station": "진천역 1번 출구 버스 5분",
       "tags": [
         "피부과전문의",
@@ -47749,7 +47749,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-636-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -48424,16 +48423,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "월성 스타피부과의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "달서구",
-      "hospital_name": "월성 맑은의원",
+      "hospital_name": "대구 달서구 표본의원 #11 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 달서구 조암로 14 (월성동 스타벅스 2층)",
-      "road_address": "대구 달서구 조암로 38 (월성CGV 타워)",
+      "road_address": "대구 달서구 (진천역 1번 출구 버스 5분 인근)",
       "subway_station": "진천역 1번 출구 버스 5분",
       "tags": [
         "대형네트워크",
@@ -48444,7 +48444,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-632-1254",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -49119,16 +49118,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "월성 맑은의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "달서구",
-      "hospital_name": "죽전 로제피부과의원",
+      "hospital_name": "대구 달서구 표본의원 #12 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달서구 와룡로 169 (죽전네거리 대우월드마크 3층)",
-      "road_address": "대구 달서구 달구벌대로 1530",
+      "road_address": "대구 달서구 (죽전역 1번 출구 도보 1분 인근)",
       "subway_station": "죽전역 1번 출구 도보 1분",
       "tags": [
         "피부과전문의",
@@ -49139,7 +49139,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-524-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -49814,16 +49813,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "죽전 로제피부과의원"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "달서구",
-      "hospital_name": "톡스앤필의원 대구달서점",
+      "hospital_name": "대구 달서구 표본의원 #13 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 달서구 달구벌대로 1530 (죽전역 삼정브리티시 2층)",
-      "road_address": "대구 달서구 달구벌대로 1530",
+      "road_address": "대구 달서구 (죽전역 1번 출구 도보 1분 인근)",
       "subway_station": "죽전역 1번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -49834,7 +49834,6 @@
         "전용주차장",
         "야간진료"
       ],
-      "tel": "053-562-4865",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -50509,16 +50508,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "톡스앤필의원 대구달서점"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "달서구",
-      "hospital_name": "용산 맑은피부과의원",
+      "hospital_name": "대구 달서구 표본의원 #14 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달서구 용산로 141 (용산역 6번 출구)",
-      "road_address": "대구 달서구 달구벌대로 1488",
+      "road_address": "대구 달서구 (용산역 3번 출구 도보 2분 인근)",
       "subway_station": "용산역 3번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -50529,7 +50529,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-525-0075",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -51204,16 +51203,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "용산 맑은피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "달서구",
-      "hospital_name": "성서 연세피부과의원",
+      "hospital_name": "대구 달서구 표본의원 #15 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달서구 이곡공원로 26 (이곡역 2번 출구 성서국민연금 맞은편)",
-      "road_address": "대구 달서구 이곡동로 32",
+      "road_address": "대구 달서구 (성서산업단지역 7번 출구 도보 3분 인근)",
       "subway_station": "성서산업단지역 7번 출구 도보 3분",
       "tags": [
         "피부과전문의",
@@ -51224,7 +51224,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-584-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -51899,16 +51898,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "성서 연세피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "달서구",
-      "hospital_name": "진천 미피부과의원",
+      "hospital_name": "대구 달서구 표본의원 #16 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달서구 월배로 75 (진천역 3번 출구)",
-      "road_address": "대구 달서구 달구벌대로 1500",
+      "road_address": "대구 달서구 (죽전역 2번 출구 도보 2분 인근)",
       "subway_station": "죽전역 2번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -51919,7 +51919,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-634-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -52594,16 +52593,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "진천 미피부과의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "달서구",
-      "hospital_name": "월성 미앤미의원",
+      "hospital_name": "대구 달서구 표본의원 #17 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 달서구 조암로 32 (월성동 신협 3층)",
-      "road_address": "대구 달서구 조암로 38 (월성CGV 타워)",
+      "road_address": "대구 달서구 (진천역 1번 출구 버스 5분 인근)",
       "subway_station": "진천역 1번 출구 버스 5분",
       "tags": [
         "대형네트워크",
@@ -52614,7 +52614,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-631-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -53289,16 +53288,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "월성 미앤미의원"
     },
     {
       "category": "한방 피부미용",
       "clinic_type": "한방미용의원",
       "district": "달서구",
-      "hospital_name": "상인 하늘체한의원",
+      "hospital_name": "대구 달서구 표본의원 #18 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 달서구 월배로 210 (상인역 3번 출구)",
-      "road_address": "대구 달서구 월배로 210",
+      "road_address": "대구 달서구 (상인역 2번 출구 도보 2분 인근)",
       "subway_station": "상인역 2번 출구 도보 2분",
       "tags": [
         "한방피부미용",
@@ -53306,7 +53306,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-642-7585",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -53651,16 +53650,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "상인 하늘체한의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "북구",
-      "hospital_name": "칠곡 로제피부과의원",
+      "hospital_name": "대구 북구 표본의원 #06 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 북구 동천로 125 (동천동 칠곡3지구 롯데시네마 맞은편 4층)",
-      "road_address": "대구 북구 동천로 125 (칠곡3지구 메디컬센터)",
+      "road_address": "대구 북구 (팔거역 1번 출구 도보 3분 인근)",
       "subway_station": "팔거역 1번 출구 도보 3분",
       "tags": [
         "피부과전문의",
@@ -53671,7 +53671,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-324-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -54346,16 +54345,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "칠곡 로제피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "북구",
-      "hospital_name": "칠곡 연세피부과의원",
+      "hospital_name": "대구 북구 표본의원 #07 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 북구 팔거천동로 222 (팔거역 1번 출구)",
-      "road_address": "대구 북구 칠곡중앙대로 310",
+      "road_address": "대구 북구 (칠곡운암역 1번 출구 도보 3분 인근)",
       "subway_station": "칠곡운암역 1번 출구 도보 3분",
       "tags": [
         "피부과전문의",
@@ -54366,7 +54366,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-326-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -55041,16 +55040,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "칠곡 연세피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "북구",
-      "hospital_name": "칠곡 하얀피부과의원",
+      "hospital_name": "대구 북구 표본의원 #08 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 북구 칠곡중앙대로 320 (읍내동)",
-      "road_address": "대구 북구 동천로 125 (칠곡3지구 메디컬센터)",
+      "road_address": "대구 북구 (팔거역 1번 출구 도보 3분 인근)",
       "subway_station": "팔거역 1번 출구 도보 3분",
       "tags": [
         "피부과전문의",
@@ -55061,7 +55061,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-314-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -55736,16 +55735,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "칠곡 하얀피부과의원"
     },
     {
       "category": "대형 미용네트워크",
       "clinic_type": "네트워크의원",
       "district": "북구",
-      "hospital_name": "칠곡 유앤아이의원",
+      "hospital_name": "대구 북구 표본의원 #09 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 북구 동천로 128 (동천동 칠곡3지구)",
-      "road_address": "대구 북구 동천로 125 (칠곡3지구 메디컬센터)",
+      "road_address": "대구 북구 (팔거역 1번 출구 도보 3분 인근)",
       "subway_station": "팔거역 1번 출구 도보 3분",
       "tags": [
         "대형네트워크",
@@ -55756,7 +55756,6 @@
         "전용주차장",
         "야간진료"
       ],
-      "tel": "053-321-1254",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -56431,16 +56430,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "칠곡 유앤아이의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "북구",
-      "hospital_name": "칠곡 미앤미의원",
+      "hospital_name": "대구 북구 표본의원 #10 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 북구 동천로 135 (칠곡3지구 팔거역)",
-      "road_address": "대구 북구 동천로 125 (칠곡3지구 메디컬센터)",
+      "road_address": "대구 북구 (팔거역 1번 출구 도보 3분 인근)",
       "subway_station": "팔거역 1번 출구 도보 3분",
       "tags": [
         "대형네트워크",
@@ -56451,7 +56451,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-323-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -57126,16 +57125,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "칠곡 미앤미의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "북구",
-      "hospital_name": "침산 로제피부과의원",
+      "hospital_name": "대구 북구 표본의원 #11 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 북구 침산로 153 (침산네거리 명성제이드 3층)",
-      "road_address": "대구 북구 침산로 153 (명성제니스 상가)",
+      "road_address": "대구 북구 (북구청역 1번 출구 도보 7분 인근)",
       "subway_station": "북구청역 1번 출구 도보 7분",
       "tags": [
         "피부과전문의",
@@ -57146,7 +57146,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-356-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -57821,16 +57820,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "침산 로제피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "북구",
-      "hospital_name": "침산 맑은피부과의원",
+      "hospital_name": "대구 북구 표본의원 #12 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 북구 침산남로 140 (침산네거리 하나은행 4층)",
-      "road_address": "대구 북구 침산로 153 (명성제니스 상가)",
+      "road_address": "대구 북구 (북구청역 1번 출구 도보 7분 인근)",
       "subway_station": "북구청역 1번 출구 도보 7분",
       "tags": [
         "피부과전문의",
@@ -57841,7 +57841,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-354-0075",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -58516,16 +58515,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "침산 맑은피부과의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "북구",
-      "hospital_name": "침산 연세의원",
+      "hospital_name": "대구 북구 표본의원 #13 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 북구 침산로 168 (침산동 이마트 건너편)",
-      "road_address": "대구 북구 침산로 153 (명성제니스 상가)",
+      "road_address": "대구 북구 (북구청역 1번 출구 도보 7분 인근)",
       "subway_station": "북구청역 1번 출구 도보 7분",
       "tags": [
         "대형네트워크",
@@ -58536,7 +58536,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-352-1254",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -59211,16 +59210,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "침산 연세의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "북구",
-      "hospital_name": "복현 연세피부과의원",
+      "hospital_name": "대구 북구 표본의원 #14 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 북구 복현로 35 (복현오거리)",
-      "road_address": "대구 북구 복현로 35",
+      "road_address": "대구 북구 (복현오거리 인근 인근)",
       "subway_station": "복현오거리 인근",
       "tags": [
         "피부과전문의",
@@ -59231,7 +59231,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-952-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -59906,16 +59905,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "복현 연세피부과의원"
     },
     {
       "category": "한방 피부미용",
       "clinic_type": "한방미용의원",
       "district": "북구",
-      "hospital_name": "칠곡 하늘한의원",
+      "hospital_name": "대구 북구 표본의원 #15 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 북구 동천로 121 (동천동 칠곡3지구)",
-      "road_address": "대구 북구 동천로 125 (칠곡3지구 메디컬센터)",
+      "road_address": "대구 북구 (팔거역 1번 출구 도보 3분 인근)",
       "subway_station": "팔거역 1번 출구 도보 3분",
       "tags": [
         "한방피부미용",
@@ -59923,7 +59923,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-325-7585",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -60268,16 +60267,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "칠곡 하늘한의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "동구",
-      "hospital_name": "동대구 연세피부과의원",
+      "hospital_name": "대구 동구 표본의원 #04 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 동구 동대구로 550 (신천동 동대구역 맞은편)",
-      "road_address": "대구 동구 아양로 45",
+      "road_address": "대구 동구 (아양교역 1번 출구 도보 2분 인근)",
       "subway_station": "아양교역 1번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -60288,7 +60288,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-756-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -60963,16 +60962,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "동대구 연세피부과의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "동구",
-      "hospital_name": "신세계 맑은의원",
+      "hospital_name": "대구 동구 표본의원 #05 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 동구 동부로 149 (신천동 신세계백화점 맞은편)",
-      "road_address": "대구 동구 아양로 45",
+      "road_address": "대구 동구 (아양교역 1번 출구 도보 2분 인근)",
       "subway_station": "아양교역 1번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -60983,7 +60983,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-745-1254",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -61658,16 +61657,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "신세계 맑은의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "동구",
-      "hospital_name": "율하 스타피부과의원",
+      "hospital_name": "대구 동구 표본의원 #06 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 동구 안심로 73 (율하동 롯데몰 상권 3층)",
-      "road_address": "대구 동구 안심로 22길 40 (율하롯데캐슬 상가)",
+      "road_address": "대구 동구 (율하역 3번 출구 도보 3분 인근)",
       "subway_station": "율하역 3번 출구 도보 3분",
       "tags": [
         "피부과전문의",
@@ -61678,7 +61678,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-964-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -62353,16 +62352,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "율하 스타피부과의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "동구",
-      "hospital_name": "율하 미앤미의원",
+      "hospital_name": "대구 동구 표본의원 #07 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 동구 안심로22길 60 (율하지구 메디컬빌딩 2층)",
-      "road_address": "대구 동구 안심로 22길 40 (율하롯데캐슬 상가)",
+      "road_address": "대구 동구 (율하역 3번 출구 도보 3분 인근)",
       "subway_station": "율하역 3번 출구 도보 3분",
       "tags": [
         "대형네트워크",
@@ -62373,7 +62373,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-965-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -63048,16 +63047,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "율하 미앤미의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "동구",
-      "hospital_name": "혁신 맑은피부과의원",
+      "hospital_name": "대구 동구 표본의원 #08 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 동구 이노밸리로 150 (신서동 신서혁신도시)",
-      "road_address": "대구 동구 이노밸리로 325 (혁신도시)",
+      "road_address": "대구 동구 (각산역 차량 5분 인근)",
       "subway_station": "각산역 차량 5분",
       "tags": [
         "피부과전문의",
@@ -63068,7 +63068,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-962-0075",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -63743,16 +63742,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "혁신 맑은피부과의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "동구",
-      "hospital_name": "방촌 연세의원",
+      "hospital_name": "대구 동구 표본의원 #09 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 동구 동촌로 220 (방촌역 2번 출구)",
-      "road_address": "대구 동구 아양로 45",
+      "road_address": "대구 동구 (아양교역 1번 출구 도보 2분 인근)",
       "subway_station": "아양교역 1번 출구 도보 2분",
       "tags": [
         "대형네트워크",
@@ -63763,7 +63763,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-984-1254",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -64438,16 +64437,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "방촌 연세의원"
     },
     {
       "category": "한방 피부미용",
       "clinic_type": "한방미용의원",
       "district": "동구",
-      "hospital_name": "율하 맑은한의원",
+      "hospital_name": "대구 동구 표본의원 #10 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 동구 안심로22길 52 (율하지구)",
-      "road_address": "대구 동구 안심로 22길 40 (율하롯데캐슬 상가)",
+      "road_address": "대구 동구 (율하역 3번 출구 도보 3분 인근)",
       "subway_station": "율하역 3번 출구 도보 3분",
       "tags": [
         "한방피부미용",
@@ -64455,7 +64455,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-963-1075",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -64800,16 +64799,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "율하 맑은한의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "서구",
-      "hospital_name": "평리 스타의원",
+      "hospital_name": "대구 서구 표본의원 #05 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 서구 국채보상로 240 (평리네거리 인근)",
-      "road_address": "대구 서구 국채보상로 240 (평리뉴타운)",
+      "road_address": "대구 서구 (두류역 17번 출구 버스 5분 인근)",
       "subway_station": "두류역 17번 출구 버스 5분",
       "tags": [
         "대형네트워크",
@@ -64820,7 +64820,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-564-1254",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -65495,16 +65494,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "평리 스타의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "서구",
-      "hospital_name": "두류 맑은피부과의원",
+      "hospital_name": "대구 서구 표본의원 #06 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 서구 달구벌대로 1790 (두류네거리 18번 출구)",
-      "road_address": "대구 서구 국채보상로 260",
+      "road_address": "대구 서구 (서구청 맞은편 인근)",
       "subway_station": "서구청 맞은편",
       "tags": [
         "피부과전문의",
@@ -65515,7 +65515,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-571-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -66190,16 +66189,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "두류 맑은피부과의원"
     },
     {
       "category": "한방 피부미용",
       "clinic_type": "한방미용의원",
       "district": "서구",
-      "hospital_name": "평리 한방미용의원",
+      "hospital_name": "대구 서구 표본의원 #07 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 서구 통학로 45 (평리동)",
-      "road_address": "대구 서구 국채보상로 240 (평리뉴타운)",
+      "road_address": "대구 서구 (두류역 17번 출구 버스 5분 인근)",
       "subway_station": "두류역 17번 출구 버스 5분",
       "tags": [
         "한방피부미용",
@@ -66207,7 +66207,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-562-1075",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -66552,16 +66551,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "평리 한방미용의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "남구",
-      "hospital_name": "영대병원 맑은피부과의원",
+      "hospital_name": "대구 남구 표본의원 #03 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 남구 대명로 280 (영대병원역 3번 출구)",
-      "road_address": "대구 남구 현충로 170 (영대병원역 메디컬타워)",
+      "road_address": "대구 남구 (영대병원역 3번 출구 도보 1분 인근)",
       "subway_station": "영대병원역 3번 출구 도보 1분",
       "tags": [
         "피부과전문의",
@@ -66572,7 +66572,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-623-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -67247,16 +67246,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "영대병원 맑은피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "남구",
-      "hospital_name": "봉덕 스타피부과의원",
+      "hospital_name": "대구 남구 표본의원 #04 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 남구 봉덕로 65 (봉덕동)",
-      "road_address": "대구 남구 봉덕로 65",
+      "road_address": "대구 남구 (교대역 4번 출구 도보 8분 인근)",
       "subway_station": "교대역 4번 출구 도보 8분",
       "tags": [
         "피부과전문의",
@@ -67267,7 +67267,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-471-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -67942,16 +67941,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "봉덕 스타피부과의원"
     },
     {
       "category": "한방 피부미용",
       "clinic_type": "한방미용의원",
       "district": "남구",
-      "hospital_name": "남구 청담한의원",
+      "hospital_name": "대구 남구 표본의원 #05 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 남구 이천로 110 (이천동)",
-      "road_address": "대구 남구 대봉로 90",
+      "road_address": "대구 남구 (이천동 고미술거리 인근 인근)",
       "subway_station": "이천동 고미술거리 인근",
       "tags": [
         "한방피부미용",
@@ -67959,7 +67959,6 @@
         "역세권도보",
         "1:1맞춤진료"
       ],
-      "tel": "053-472-1075",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -68304,16 +68303,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "남구 청담한의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "달성군",
-      "hospital_name": "다사 대실 연세피부과의원",
+      "hospital_name": "대구 달성군 표본의원 #03 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달성군 다사읍 달구벌대로 864 (대실역 1번 출구)",
-      "road_address": "대구 달성군 다사읍 달구벌대로 864",
+      "road_address": "대구 달성군 (대실역 2번 출구 도보 1분 인근)",
       "subway_station": "대실역 2번 출구 도보 1분",
       "tags": [
         "피부과전문의",
@@ -68324,7 +68324,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-587-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -68999,16 +68998,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "다사 대실 연세피부과의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "달성군",
-      "hospital_name": "다사 맑은의원",
+      "hospital_name": "대구 달성군 표본의원 #04 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 달성군 다사읍 대실역남로 18 (대실역 상권)",
-      "road_address": "대구 달성군 다사읍 달구벌대로 864",
+      "road_address": "대구 달성군 (대실역 2번 출구 도보 1분 인근)",
       "subway_station": "대실역 2번 출구 도보 1분",
       "tags": [
         "대형네트워크",
@@ -69019,7 +69019,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-588-1254",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -69694,16 +69693,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "다사 맑은의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "달성군",
-      "hospital_name": "화원 스타피부과의원",
+      "hospital_name": "대구 달성군 표본의원 #05 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달성군 화원읍 비슬로 2580 (화원역 2번 출구)",
-      "road_address": "대구 달성군 화원읍 비슬로 2500",
+      "road_address": "대구 달성군 (화원역 1번 출구 도보 2분 인근)",
       "subway_station": "화원역 1번 출구 도보 2분",
       "tags": [
         "피부과전문의",
@@ -69714,7 +69714,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-633-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -70389,16 +70388,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "화원 스타피부과의원"
     },
     {
       "category": "전문의의원",
       "clinic_type": "전문의의원",
       "district": "달성군",
-      "hospital_name": "현풍 테크노 연세피부과의원",
+      "hospital_name": "대구 달성군 표본의원 #06 (피부과전문의)",
       "is_specialist": true,
       "location": "대구 달성군 유가읍 테크노상업로 98 (테크노폴리스 중앙)",
-      "road_address": "대구 달성군 유가읍 테크노상업로 98",
+      "road_address": "대구 달성군 (현풍시외버스터미널 인근 인근)",
       "subway_station": "현풍시외버스터미널 인근",
       "tags": [
         "피부과전문의",
@@ -70409,7 +70409,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-611-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 포함)",
@@ -71084,16 +71083,17 @@
       },
       "vat_included": true,
       "vat_note": "VAT 10% 포함",
-      "vat_policy": "VAT 10% 포함"
+      "vat_policy": "VAT 10% 포함",
+      "hospital_name_original": "현풍 테크노 연세피부과의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "달성군",
-      "hospital_name": "현풍 맑은의원",
+      "hospital_name": "대구 달성군 표본의원 #07 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 달성군 현풍읍 테크노중앙대로 243",
-      "road_address": "대구 달성군 현풍읍 테크노중앙대로 325",
+      "road_address": "대구 달성군 (대구경북과학기술원 인근 인근)",
       "subway_station": "대구경북과학기술원 인근",
       "tags": [
         "대형네트워크",
@@ -71104,7 +71104,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-614-1254",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -71779,16 +71778,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "현풍 맑은의원"
     },
     {
       "category": "로컬 미용의원",
       "clinic_type": "네트워크의원",
       "district": "달성군",
-      "hospital_name": "테크노 미앤미의원",
+      "hospital_name": "대구 달성군 표본의원 #08 (네트워크의원)",
       "is_specialist": false,
       "location": "대구 달성군 유가읍 테크노중앙대로 325 (유가읍사무소 맞은편)",
-      "road_address": "대구 달성군 유가읍 테크노상업로 98",
+      "road_address": "대구 달성군 (현풍시외버스터미널 인근 인근)",
       "subway_station": "현풍시외버스터미널 인근",
       "tags": [
         "대형네트워크",
@@ -71799,7 +71799,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-615-7582",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -72474,16 +72473,17 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "테크노 미앤미의원"
     },
     {
       "category": "한방 피부미용",
       "clinic_type": "한방미용의원",
       "district": "달성군",
-      "hospital_name": "다사 대실한의원",
+      "hospital_name": "대구 달성군 표본의원 #09 (한방미용의원)",
       "is_specialist": false,
       "location": "대구 달성군 다사읍 달구벌대로 870 (대실역 인근)",
-      "road_address": "대구 달성군 다사읍 달구벌대로 864",
+      "road_address": "대구 달성군 (대실역 2번 출구 도보 1분 인근)",
       "subway_station": "대실역 2번 출구 도보 1분",
       "tags": [
         "한방피부미용",
@@ -72491,7 +72491,6 @@
         "전용주차장",
         "1:1맞춤진료"
       ],
-      "tel": "053-585-1075",
       "treatments": {
         "국소_레티노이드": {
           "note": "국소_레티노이드 (VAT 10% 별도)",
@@ -72836,7 +72835,8 @@
       },
       "vat_included": false,
       "vat_note": "VAT 10% 별도",
-      "vat_policy": "VAT 10% 별도"
+      "vat_policy": "VAT 10% 별도",
+      "hospital_name_original": "다사 대실한의원"
     }
   ],
   "kosis_coverage": {
